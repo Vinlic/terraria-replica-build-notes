@@ -1,0 +1,1843 @@
+[
+ {
+  "file": "2026-08-09-round5.md",
+  "name": "round5-structure-fixes",
+  "desc": "第五轮(存档7)结构修复记录与下一步指引",
+  "day": "08-08",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "2026-08-10-loot-new-passes.md",
+  "name": "loot-new-passes",
+  "desc": "AddBuriedChest 四深度分支战利品 1:1 + 雕像/丛林神龛/洞穴小屋/海洋洞窟/地狱熔炉五 pass 移植要点与行号",
+  "day": "08-11",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "a-batch3-approx-zero.md",
+  "name": "a-batch3-approx-zero",
+  "desc": "",
+  "day": "08-12",
+  "sid": null
+ },
+ {
+  "file": "aaaaa-track-framechain-port.md",
+  "name": "aaaaa-track-framechain-port",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "achievements-port.md",
+  "name": "achievements-port",
+  "desc": "成就系统全量移植（137成就1:1+引擎+钩子+UI+三项背包修复）；图标64px/66步长8列锁定X+528；GAIN_TORCH_GODS_FAVOR唯一无类别",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "ai-parity-audit-2026-08-19.md",
+  "name": "ai-parity-audit-2026-08-19",
+  "desc": "六代理AI全量1:1审计~200条:当日修15项(694崩溃/鸭子海马仙灵瓢虫反向/仙灵逃逸/石巨人胜利倒置/蜂群速度表/batAI双段/蚁狮/史莱姆激愤表);台账docs/ai-parity-gaps-2026-08-19;★死亡=只积分不steering(原版共享积分段:93808)",
+  "day": "08-19",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "ai-routing-audit-2026-08-13.md",
+  "name": "ai-routing-audit-2026-08-13",
+  "desc": "AI 路由双门全量审计:594 灰史莱姆根因=主 switch 缺 case;4 命中(628 补路由/690·618 整 AI 移植/453 误报)+音效 Custom/ 前缀 404 隐患+619 json 补条",
+  "day": "08-13",
+  "sid": "ec878731"
+ },
+ {
+  "file": "alchemy-table-anim-collapse-fix.md",
+  "name": "alchemy-table-anim-collapse-fix",
+  "desc": "炼金台355贴图塌碎修复:dgWr零帧+ChunkCache动画偏移预加破坏零帧重建门;修复=偏移后置+place3x3D逐格帧;探针TDZ教训",
+  "day": "08-17",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "altar-fragment-fix.md",
+  "name": "altar-fragment-fix",
+  "desc": "恶魔祭坛 2 格残片根因=裂隙挖空漏三重门+裂隙尾祭坛自加吸附;1:1 修复(CanEvilReplace/魔矿猩红矿保护/去吸附)",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "approx-zero-project.md",
+  "name": "approx-zero-project",
+  "desc": "近似清零工程完成（2026-08-12）——127 条普查缺口全处置、5 全仓级真 bug、AI 100%、三态终审法则",
+  "day": "08-12",
+  "sid": "372ae608"
+ },
+ {
+  "file": "archives-pii-sanitization.md",
+  "name": "archives-pii-sanitization",
+  "desc": "\"session-archives 与展示页的敏感信息审计结论与脱敏规则库(已全零,规则已烧进三个工具脚本)\"",
+  "day": "08-15",
+  "sid": "e65c4575"
+ },
+ {
+  "file": "arrow-gravity-chain-parity.md",
+  "name": "arrow-gravity-chain-parity",
+  "desc": "AI_001 重力链全量对账——箭默认 0.1/update@15（非 0.3/tick）、flag3 豁免表 83 型、逐型档、686/711 两段式、终端 16；projGravSpec 数据驱动",
+  "day": "08-14",
+  "sid": "ec878731"
+ },
+ {
+  "file": "asset-lazy-loading.md",
+  "name": "asset-lazy-loading",
+  "desc": "2026-08-10 素材分层按需加载:菜单请求 8300→31/渲染进程 645→444MB;三级策略与陷阱",
+  "day": "08-10",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "asset-zip-bundle.md",
+  "name": "asset-zip-bundle",
+  "desc": "资源 zip 分片打包+页面 worker 直给解压入 Cache API;12003 请求→8 片;SW 只做 cache-first 服务;构建增量重打包",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "balloon-slime-ai125-port.md",
+  "name": "balloon-slime-ai125-port",
+  "desc": "气球史莱姆下地底/卡死根因=686被转成bound站地TownNPC(丢失AI_125漂浮语义);修=真Enemy aiStyle125悬停AI(前方列扫描/追平玩家/湿爆)+die()走死链Transform(680)",
+  "day": "08-17",
+  "sid": "ec878731"
+ },
+ {
+  "file": "bed-sleep-visual-fix.md",
+  "name": "bed-sleep-visual-fix",
+  "desc": "躺床效果三根因(1tick误杀/镜像内旋转角/床偏移双重镜像)与1:1修法;原版无冻结=锚点脚底踩床下地板;引导性视觉提问会假确认",
+  "day": "08-17",
+  "sid": "9adce254"
+ },
+ {
+  "file": "beehive-port.md",
+  "name": "beehive-port",
+  "desc": "蜂巢链路移植要点——KillTile case 225/231、蜂 AI 分支、Larva tile 是 231 不是 220、蜂蜜流动唤醒时序",
+  "day": "08-10",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "behavior-parity-batch-2026-08-17.md",
+  "name": "behavior-parity-batch-2026-08-17",
+  "desc": "角色行为对齐总批:玩家动画帧(跳落5/6·行走7..19×13速率1.3/8·游泳·重力反转·钩爪·eocDash·useStyle8/11/12·睡床旋转)+死亡三件散飞/幽灵/PlayerEyeHelper眨眼+日曜盾球视觉+放块动画/水中跑尘(互斥带/WetCollision位移层)+城镇NPC逃离/坐姿帧/白天坐椅/三档跳+使用动作P0(吃药动画/药水病分档/autoReuse边沿);台账docs/behavior-parity-audit-2026-08-17.md",
+  "day": "08-17",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "bestiary-contextloss-fix.md",
+  "name": "bestiary-contextloss-fix",
+  "desc": "图鉴resize全消失=context丢失窗口期无重画;三层修=RO稳定居抖+contextrestored重画+空白自愈扫描;黑影=NotKnown原版设计;探针81/81全绿",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "bestiary-data-layer.md",
+  "name": "bestiary-data-layer",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "bestiary-npc-tint-frame.md",
+  "name": "bestiary-npc-tint-frame",
+  "desc": "\"图鉴NPC头像三修:frames查母体sheetId(负id键缺→整条两帧画)+netid表color染色(绿史莱姆-3=(0,220,40,100))+原生尺寸只缩不放(原版DrawNPCDirect不放大填框,僵尸剪影34×46>绿史莱姆28×20);离屏两步混合防挖MapBG\"",
+  "day": "08-14",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "bestiary-scroll-crash-fix.md",
+  "name": "bestiary-scroll-crash-fix",
+  "desc": "图鉴滚轮翻页崩溃三根因(零缓存自取/每tick全量重建/边界空滚);修=缓存+在途去重+rAF合并+阈值门;风暴探针40/40画布堆平稳",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "bird-findframe-families.md",
+  "name": "bird-findframe-families",
+  "desc": "鸟/小动物 FindFrame 专属 case 全家族——地面鸟不踱步是站定帧前提;鸮族 spriteDirection 取反的双翻陷阱",
+  "day": "08-18",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "blockframes-lookup-rebuild.md",
+  "name": "blockframes-lookup-rebuild",
+  "desc": "标准实心块auto帧表(LOOKUP)2026-08-12按原版判定链机械重建;旧表仅47/256掩码且L角坐标错位=木材衔接异常根因",
+  "day": "08-12",
+  "sid": "ec878731"
+ },
+ {
+  "file": "book-mimic-cultist-dragon-batch.md",
+  "name": "book-mimic-cultist-dragon-batch",
+  "desc": "书怪693/694全链+教徒幻影龙454召唤批：AI_010多状态机/贴书传送/书掉落vi_165链/仪式圈召唤/455-458数据补齐",
+  "day": "08-18",
+  "sid": "04569a63"
+ },
+ {
+  "file": "boss-audit-prehardmode-2026-08-13.md",
+  "name": "boss-audit-prehardmode-2026-08-13",
+  "desc": "肉前三王+肉山1:1审计与全量修复:EoC专家状态机/世噬分体语义/肉山困难模式转化链+舌头机制",
+  "day": "08-13",
+  "sid": "8f9c7b63"
+ },
+ {
+  "file": "boss-audit-wave1-fixes.md",
+  "name": "boss-audit-wave1-fixes",
+  "desc": "全Boss同款四维审计波1(石巨人+机械三王+光女猪鲨史后+肉前五族+蜂后肉山世花)修复批:30+修;波2(月总/教徒四塔/鹿角怪飞碟/月亮事件)在途",
+  "day": "08-19",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "boss-summon-announce.md",
+  "name": "boss-summon-announce",
+  "desc": "Boss 召唤的公告文本/音效/BGM 原版语义——统一格式+双子/月总例外、Roar 唯蜂后例外、每 Boss 专属 BGM 表",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "boss-summon-drops-events-batch.md",
+  "name": "boss-summon-drops-events-batch",
+  "desc": "全Boss三维总审计+修复:召唤链(成功才扣×5件/同型门BOSS_FAMILY增补/天界印记四重门/4988仅ZoneHallow/老人诅咒去hardMode门/眼球清spawnEyePending/DD2两压制门/世花灯泡支撑破坏) + 宝袋4+2真bug(sw按臂数/default独立branch/猪鲨2623/EoW矿量+devArmor 1/16全局表) + 光女白天ai3=2 + 裁缝娃娃召唤骷髅王 + 史莱姆雨计数门 + 旗标(陨石快照序/misc32·33/灯泡首杀门/史王停雨)",
+  "day": "08-18",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "boulder-trap-fix.md",
+  "name": "boulder-trap-fix",
+  "desc": "巨石机关三根因(自造物理档/中心点碰撞恒沉/裸写tile绕过渲染失效);AI_025真档;渲染改动必走setTile入口",
+  "day": "08-14",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "breath-meter-port.md",
+  "name": "breath-meter-port",
+  "desc": "呼吸计全链1:1:CheckDrowning/DrownCollision(蜂蜜也淹)/10气泡UI锚点顺序坑/火焰条槽数整除语义",
+  "day": "08-12",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "buff-bar-vanilla-icons.md",
+  "name": "buff-bar-vanilla-icons",
+  "desc": "\"buff栏1:1修复=Buff_{vanillaBuff}原版贴图(388张入库)+11个/行横排步距38行距50+动态建块无白名单+buffAlpha 0.4语义\"",
+  "day": "08-12",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "buff-system-port.md",
+  "name": "buff-system-port",
+  "desc": "Buff 系统原版化要点——AddBuff max 合并/Honey(48) 授予链/1456 数值修正（铁皮8、恢复2HP/s、荆棘全额反伤）/蜂蜜不淹死",
+  "day": "08-10",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "builder-acc-family-port.md",
+  "name": "builder-acc-family-port",
+  "desc": "建筑族7件实装+tileSpeed/wallSpeed倒数公式(累加→钳3→1/x→乘useTime)裁决铁证:25622-25632;挖掘pickSpeed加法减量链;blockRange分型调用点(挖掘不带/放置带)",
+  "day": "08-17",
+  "sid": "413208b1"
+ },
+ {
+  "file": "bunny-walk-frame-fix.md",
+  "name": "bunny-walk-frame-fix",
+  "desc": "兔子行走帧3倍速闪帧根因=aiStyle7小动物误套城镇NPC帧档;case46族专属分支(counter+=|vx|+1·>6进帧·全帧含帧0循环·腾空升4降6);aiStyle7路由须再分case族",
+  "day": "08-18",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "buriedchest-house-domain-parity.md",
+  "name": "buriedchest-house-domain-parity",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "ccccc-place2x2-anchor-check2x2.md",
+  "name": "ccccc-place2x2-anchor-check2x2",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "chest-index-frame-bug.md",
+  "name": "chest-index-frame-bug",
+  "desc": "宝箱四格同贴图根因——legacy structurePass 的 placeChest 写格索引(0/1)而非像素(0/18)，生成端+读档双修复",
+  "day": "08-11",
+  "sid": null
+ },
+ {
+  "file": "chop-hit-sound-port.md",
+  "name": "chop-hit-sound-port",
+  "desc": "砍树/挖掘每击击打音=原版每击KillTile(fail:true)都播KillTile_PlaySounds;工具类型门须查tileAxe原版表非本地d.axe标志",
+  "day": "08-17",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "chunk-seam-noninteger-zoom.md",
+  "name": "chunk-seam-noninteger-zoom",
+  "desc": "树冠/仙人掌接缝真根因=chunk拼装非整数zoom落小数像素(1.27→325.12);修复=drawChunkGrid整数设备矩形;相机snap不救chunk边界;解剖台A/B方法论",
+  "day": "08-18",
+  "sid": "573d63f5"
+ },
+ {
+  "file": "class-stat-reconciliation.md",
+  "name": "class-stat-reconciliation",
+  "desc": "职业数值全对账：minionDamage 独立第四链拆分/魔力眩晕94/投掷并入近战/Rage115 Wrath117 名实对调坑/对账表",
+  "day": "08-13",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "cloud-parity-fill-attempts.md",
+  "name": "cloud-parity-fill-attempts",
+  "desc": "云量偏多根因=resetClouds重试凑满而非恰numClouds次尝试；AABB拒绝即少一朵是原版云量调节器",
+  "day": "08-19",
+  "sid": "04569a63"
+ },
+ {
+  "file": "combat-convergence-batch.md",
+  "name": "combat-convergence-batch",
+  "desc": "战斗系统收敛批：配重球环绕实体/燃烧瓶MolotovProj裂开6火云/狙击镜zoom/3878补丁——专项清单全部清零",
+  "day": "08-13",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "combat-font-bitmap-port.md",
+  "name": "combat-font-bitmap-port",
+  "desc": "飘字位图字体全对齐:ReLogic DynamicSpriteFont 私有布局逆向(本地ReLogic.dll反编译)+LZX+xnb库管线;数字页裁剪158页全量3.6MB→2KB;5层绘制影=本色调暗×0.3非黑",
+  "day": "08-13",
+  "sid": "413208b1"
+ },
+ {
+  "file": "cracked-brick-chain-port.md",
+  "name": "cracked-brick-chain-port",
+  "desc": "地牢裂砖481-483全功能对齐:生成端16.6%走廊+坑陷阱+noFail秒挖+爆炸可毁已有;破坏后果五链补齐(掉同色砖/连锁崩塌上1/3侧1/6/Debris弹片736-738伤20/跑落撞碎/弹幕扫掠碎);钩爪抓碎早已实现",
+  "day": "08-14",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "crafting-dup-fix.md",
+  "name": "crafting-dup-fix",
+  "desc": "合成重复配方根因(自制表内部重复+vi_跨表双显)+合成音SoundID7+输入框键盘穿透修复+本地材料未桥接原版id空间缺口",
+  "day": "08-12",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "critter-ai-port.md",
+  "name": "critter-ai-port",
+  "desc": "小动物AI全家族1:1移植（2026-08-11）+Critter类退役（08-17）：环境生成/释放/687全走Enemy aiStyle路由，兔子hop=弹跳族误配根因",
+  "day": "08-11",
+  "sid": "04569a63"
+ },
+ {
+  "file": "cursor-icon-fullbright.md",
+  "name": "cursor-icon-fullbright",
+  "desc": "光标悬停物品图标恒全亮——GetItemLight 默认参不采光照;source-atop 叠黑画布=黑方块陷阱",
+  "day": "08-18",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "cursor-item-icon-port.md",
+  "name": "cursor-item-icon-port",
+  "desc": "指针物品/交互图标系统全量移植+收口批——余辉/群系覆写/悬停表提取器(穿透公式对象回填)/油漆子图标/住房携带头像;收口:temple·remix旗接通+孤儿箱文本支(MouseText无面板带影文字)+FakeContainers 441/468+放置建记录88族",
+  "day": "08-15",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "dart-proj-visual-port.md",
+  "name": "dart-proj-visual-port",
+  "desc": "敌怪弹幕 DART_STYLE 表:贴图/旋转语义/重力/加速/extraUpdates/渐入/火箭;射击怪→弹型全映射;XNA→canvas 旋转同号直接套",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "debug-report-warn-ring.md",
+  "name": "debug-report-warn-ring",
+  "desc": "F5 调试报告 errors/warnings 双环架构——main.ts 钩 console.error/warn 写 globalThis 环，报告零散接线",
+  "day": "08-12",
+  "sid": "8f9c7b63"
+ },
+ {
+  "file": "debug-tools-f6-f2.md",
+  "name": "debug-tools-f6-f2",
+  "desc": "\"F6召唤面板+ F2无敌无限魔力调试工具;键位让位史(F2像素导入→F1,F6快速存档→Ctrl+S);探针_f6-panel 14断言\"",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "deerclops-port.md",
+  "name": "deerclops-port",
+  "desc": "鹿角怪668全链落地:数据(1405提取器缺1.4.3+NPC)/AI_123九态/弹幕961·962·965/Slow buff/Camera punch;vanilla-npcs.json提取器是1405源勿信其全量",
+  "day": "08-13",
+  "sid": "413208b1"
+ },
+ {
+  "file": "default-run-speed-parity.md",
+  "name": "default-run-speed-parity",
+  "desc": "默认移速对账——裸装accRunSpeed基准是3非6(||6翻倍30mph根因)+越帽摩擦回落锯齿(原版无硬钳)+常量表全对;accRunSpeed=reset时maxRunSpeed裸值不随moveSpeed",
+  "day": "08-17",
+  "sid": "ec878731"
+ },
+ {
+  "file": "desert-piles-frame-parity.md",
+  "name": "desert-piles-frame-parity",
+  "desc": "沙漠石堆187贴图错位三层根因:finalize净化器误杀合法换带帧(fx2808)+dgWr零帧+重建截断扫描;修复=换带豁免+整段run模数切块",
+  "day": "08-17",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "dev-server-duplicate-modules.md",
+  "name": "dev-server-duplicate-modules",
+  "desc": "长跑 vite dev server HMR 时间戳分叉导致单例模块双实例；src/*.js 是 tsc 陈旧产物",
+  "day": "08-10",
+  "sid": "04569a63"
+ },
+ {
+  "file": "diag-script-orphan-prevention.md",
+  "name": "diag-script-orphan-prevention",
+  "desc": "\"诊断脚本必须经 tools/run-diag.mjs 运行,禁止裸跑 vite-node/npm exec,防 100% CPU 孤儿进程\"",
+  "day": "08-13",
+  "sid": "e65c4575"
+ },
+ {
+  "file": "dome-slot32-pot-waterbolt-inact.md",
+  "name": "dome-slot32-pot-waterbolt-inact",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "door-close-sweep-fix.md",
+  "name": "door-close-sweep-fix",
+  "desc": "开关门切掉旁贴工作台/墓碑半边=closeDoor三列无差别清扫;原版只动type==11开门格;T表是legacy id空间",
+  "day": "08-14",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "dual-key-cleanup-deferred.md",
+  "name": "dual-key-cleanup-deferred",
+  "desc": "双键注册清理已延期（2026-08-12）——完整方案在 game/docs/dual-key-cleanup-plan.md，恢复条件=安静窗口",
+  "day": "08-12",
+  "sid": "04569a63"
+ },
+ {
+  "file": "dualwindow-iosurface-exhaustion.md",
+  "name": "dualwindow-iosurface-exhaustion",
+  "desc": "\"双开崩溃根因=GPU进程IOSurface张数耗尽(字节无关,16x16也失败)非显存预算;force-gpu-mem-available-mb=cc tile预算纯安慰剂;--disable-gpu全域软渲染双窗0失败\"",
+  "day": "08-19",
+  "sid": "8405c930"
+ },
+ {
+  "file": "dungeon-crash-targeted-rebake.md",
+  "name": "dungeon-crash-targeted-rebake",
+  "desc": "进地牢崩溃(trace 21万解码风暴)=晚到表全量invalidateAll重烘384chunk;修=chunkSheets缺表登记+onBakeAssetArrived精确打击,双路径合一;黑影修复同款解码缓存驱逐",
+  "day": "08-14",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "dungeon-entrance-plug-fix.md",
+  "name": "dungeon-entrance-plug-fix",
+  "desc": "\"地牢塔→地下通道被砖堵死根因:塔挂载点自制gY地表扫描+7×7兜底竖井,1456实为挂hall出口位;附带4处对齐修复与BFS探针方法论\"",
+  "day": "08-13",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "dungeon-entrance-sand-seal-fix.md",
+  "name": "dungeon-entrance-sand-seal-fix",
+  "desc": "地牢入口走廊被沙封死根因=legacy 入口误用 Dome/Tower 专属 ±300 预计算漂移;入口类型门 DungeonCrawler.cs:275/818-849",
+  "day": "08-12",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "dungeon-furnish-parity-batch.md",
+  "name": "dungeon-furnish-parity-batch",
+  "desc": "地牢陈设四症状修复批:灯线dgSwitch走线+灭档/灯笼吊灯宝箱帧公式/isLockedDoor内部id陷阱/openDoor砍切/AreaOr语义",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "dungeon-painting-sunflower-77-81.md",
+  "name": "dungeon-painting-sunflower-77-81",
+  "desc": "",
+  "day": "08-20",
+  "sid": null
+ },
+ {
+  "file": "dungeon-spawn-port.md",
+  "name": "dungeon-spawn-port",
+  "desc": "地牢刷怪系统移植要点——SpawnAnNPC 地牢分支/ZoneDungeon 墙集/dungeonY 链/AI 族 10-21",
+  "day": "08-10",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "dungeon-waterchest-float-knife.md",
+  "name": "dungeon-waterchest-float-knife",
+  "desc": "",
+  "day": "08-16",
+  "sid": null
+ },
+ {
+  "file": "eeeee-oracle-mirror-medium-fix.md",
+  "name": "eeeee-oracle-mirror-medium-fix",
+  "desc": "",
+  "day": "08-16",
+  "sid": null
+ },
+ {
+  "file": "enemy-death-single-gate.md",
+  "name": "enemy-death-single-gate",
+  "desc": "多弹头同帧致死后二次死亡管线bug(双份碎块);hurt入口dead门;hurt返回值契约=仅致死true",
+  "day": "08-13",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "enemy-ranged-transform-audit.md",
+  "name": "enemy-ranged-transform-audit",
+  "desc": "敌怪弹幕+形态互转全量审计（2026-08-11）：已移植清单、ai 字段初值陷阱、原版反直觉门、遗留未移植项",
+  "day": "08-11",
+  "sid": "04569a63"
+ },
+ {
+  "file": "enemy-teleport-port.md",
+  "name": "enemy-teleport-port",
+  "desc": "敌怪传送/闪现全族审计+1:1 修复（caster 12ids 重做/混沌元素/星云脑/King/Queen/Empress）+出怪范围结论",
+  "day": "08-13",
+  "sid": "d6caec24"
+ },
+ {
+  "file": "env-hazards-port.md",
+  "name": "env-hazards-port",
+  "desc": "环境接触伤害 1:1(尖刺/岩浆+着火/窒息/灼烧/流血/蛛网)——TouchDamage 表行号/数值/Buff DoT 语义",
+  "day": "08-11",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "equip-unique-stack-parity.md",
+  "name": "equip-unique-stack-parity",
+  "desc": "装备唯一性(同款/双翅膀/DualEquipArmor)+maxStack 1456改制(默认9999仅11例外!1405的1844处已废弃);vi_堆叠表权威化",
+  "day": "08-13",
+  "sid": "413208b1"
+ },
+ {
+  "file": "event-system-port.md",
+  "name": "event-system-port",
+  "desc": "事件系统三件套落地（2026-08-11）——日食/南瓜月霜月/星璇四塔，架构约定与二期清单",
+  "day": "08-11",
+  "sid": "372ae608"
+ },
+ {
+  "file": "explosion-family-port.md",
+  "name": "explosion-family-port",
+  "desc": "爆炸物族群 1:1（ExplodeTiles/CanExploteTile/半径表）+ 功能方块全量审计结论（双代理 2026-08-11）",
+  "day": "08-11",
+  "sid": "04569a63"
+ },
+ {
+  "file": "explosion-sfx-port.md",
+  "name": "explosion-sfx-port",
+  "desc": "炸弹无音效根因=按需加载首播 fetch 中+合成 switch 无 explosion 分支;爆炸族伤害盒/视觉 1:1(Kill :74882-74916)",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "fill-gaps-batch.md",
+  "name": "fill-gaps-batch",
+  "desc": "补齐清单全核销（2026-08-12）——14 项独立子系统落地、测试基线 896→1049、历次勘误汇总",
+  "day": "08-12",
+  "sid": "372ae608"
+ },
+ {
+  "file": "flail-statusnpc-port.md",
+  "name": "flail-statusnpc-port",
+  "desc": "链球 AI_015 全状态机移植+链条贴图+StatusNPC 命中 debuff 表提取接线+noUseGraphic 静态图标修复;武器投射物族审计与 GAP 清单",
+  "day": "08-13",
+  "sid": "cc0b5a07"
+ },
+ {
+  "file": "fog-entry-multiband-stale.md",
+  "name": "fog-entry-multiband-stale",
+  "desc": "入场迷雾视野未开根因=分带整幅重建跨帧+带间标记+完成盲盖版本;修=完成时补扫dirty盒并消费",
+  "day": "08-19",
+  "sid": "ec878731"
+ },
+ {
+  "file": "fog-flicker-f4-latetex-fix.md",
+  "name": "fog-flicker-f4-latetex-fix",
+  "desc": "迷雾三修(20s看门狗误清fogPix=周期全亮闪/F4空同步=row停h未复位/分带重建fill(0)闪)+生命树晚到贴图note被pending早退吞——四根因四修复全探针实证",
+  "day": "08-18",
+  "sid": "8405c930"
+ },
+ {
+  "file": "full-1to1-review.md",
+  "name": "full-1to1-review",
+  "desc": "全面1:1审查+修复终态：3审查代理分区(坐骑快乐度/宠物AI研究/移动端成就)+~20处修复；坐骑hover疲劳固定类型表是审查最大鱼；遗留登记清单",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "gap-port-master-batch.md",
+  "name": "gap-port-master-batch",
+  "desc": "缺口全量移植批:权威台账14项10核销(buffImmune/礼袋/StatusPlayer48型/附近箱/渔夫套/隐身/冰刀/浮漂饰品/magmaStone/PortalGun)+接线纪律",
+  "day": "08-13",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "gem-anchor-gate-port.md",
+  "name": "gem-anchor-gate-port",
+  "desc": "暴露晶簇178泛滥=PlaceTile锚定门缺失;琥珀循环漏空气/岩浆门;沙漠装饰放置补齐+Next(6);金标对账法",
+  "day": "08-12",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "gem-tree-grow-draw-order.md",
+  "name": "gem-tree-grow-draw-order",
+  "desc": "GrowTreeWithSettings 两处掷骰偏差(基座帧骰无条件/帧变体先于枝型)——shimmer 金标 2026-08-14 暴露并修复;GrowTree 与 GrowTreeWithSettings 掷序相反勿互搬",
+  "day": "08-14",
+  "sid": "04569a63"
+ },
+ {
+  "file": "gemcaves-178-doublecount-regression.md",
+  "name": "gemcaves-178-doublecount-regression",
+  "desc": "\"#64 Gem_Caves回归三日记:UUUU引擎case178上线后placeExposed手写roll2/roll3成双计(+2幽灵掷/颗)全站漂移;被'GemPasses 03:16并行在途'误归因隐匿;金标基座反事实一步翻案+手写退役归引擎\"",
+  "day": "08-19",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "golem-3symptom-fix.md",
+  "name": "golem-3symptom-fix",
+  "desc": "石巨人三症状:负血不死=hurt放行与AI首行契约断裂(放行在dead=true前!)/boss bar头像表漏245/帧=FindFrame状态帧非循环(customFrameIdx直读)",
+  "day": "08-19",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "guide-query-parity-batch.md",
+  "name": "guide-query-parity-batch",
+  "desc": "\"攻略查询原版水位结论(图鉴唯一百科+向导反查,无wiki链接)+图鉴免门UNLOCK_ALL+ItemTooltip说明行接入\"",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "gun-bullet-size-parity.md",
+  "name": "gun-bullet-size-parity",
+  "desc": "子弹过大四根因(贴图w归一/判定盒恒10/半速/下坠);绘制尺寸=贴图原生×scale与判定盒解耦;extraUpdates全量249条数据驱动",
+  "day": "08-13",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "half-slab-liquid-band-parity.md",
+  "name": "half-slab-liquid-band-parity",
+  "desc": "半砖浸润缺失根因=flag5自身格液体分支未移植(TileDrawing:3943只读四邻)+五处家族差异全修(y0门/坡面边角门/半砖墙后门/蜂蜜alpha/致动门);四条定性保留偏差登记",
+  "day": "08-18",
+  "sid": "8405c930"
+ },
+ {
+  "file": "held-item-draw-parity.md",
+  "name": "held-item-draw-parity",
+  "desc": "手持物绘制对齐——火把/荧光棒静持已实现;火焰叠画默认α0=不可见勿误移植;荧光棒族持位微调表",
+  "day": "08-13",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "held-item-nowet-parity.md",
+  "name": "held-item-nowet-parity",
+  "desc": "手持物水下渲染noWet逐件化(芦苇管186水下可显根因)+NO_WET_ITEMS 70件提取法+珊瑚火把4384水火把行为+探针drawImage精确矩形匹配法(像素差分/近身过滤双双失败)",
+  "day": "08-17",
+  "sid": "ec878731"
+ },
+ {
+  "file": "hell-background-fix.md",
+  "name": "hell-background-fix",
+  "desc": "地狱背景三修:黑盒层序(先打底)+magmaLayer 公式(曾误用 lavaLine 低135格)+magma 3帧动画/表面条;ugSlots 槽位覆写陷阱",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "hhhhh-quickcleanup8-oracle-shimmer.md",
+  "name": "hhhhh-quickcleanup8-oracle-shimmer",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "housing-b-vanilla-ui.md",
+  "name": "housing-b-vanilla-ui",
+  "desc": "住房B方案落地:锚点两轮偏离全摘(锚池空=原版return);queryRoom/assignRoom/住房面板(查询器+NPC头像分配);inter39-42键权威修正",
+  "day": "08-15",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "id-space-collision-pot-bug.md",
+  "name": "id-space-collision-pot-bug",
+  "desc": "陶罐错位 bug 根因=物品id错抄进tile sheet表(drawAdjust case 28)+完整排查方法论",
+  "day": "08-17",
+  "sid": "d6caec24"
+ },
+ {
+  "file": "iiiii-spider-chest-presweep-wf-trunk.md",
+  "name": "iiiii-spider-chest-presweep-wf-trunk",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "imagebitmap-root-cure.md",
+  "name": "imagebitmap-root-cure",
+  "desc": "解码风暴根治=atlas vimages/uiimages 全 ImageBitmap 化(自持解码像素=原版 Texture2D);清扫 152 处 complete/naturalWidth/类型放宽;三风暴探针+回归全绿",
+  "day": "08-18",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "impl-gap-scan-2026-08-13.md",
+  "name": "impl-gap-scan-2026-08-13",
+  "desc": "全量功能缺口扫描6059件→真缺口40件清单在docs;4子代理发车(导弹族/食人鱼/回旋镖/液体工具);扫描器_impl-gap-scan.mjs",
+  "day": "08-13",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "info-accs-review-fixes.md",
+  "name": "info-accs-review-fixes",
+  "desc": "信息饰品系统终审——7真问题修复(暗行/渔情粘性反转/小动物空id/速度帧序/节流16帧/灰显/字段归属)",
+  "day": "08-13",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "input-mousedown-edge-vs-level.md",
+  "name": "input-mousedown-edge-vs-level",
+  "desc": "\"input.mouseDown 是边沿消费量(use 后清零),channel 类滞留判定必须用 mouseHeld 电平量——阳炎之怒出生 1 帧即死根因\"",
+  "day": "08-12",
+  "sid": "cc0b5a07"
+ },
+ {
+  "file": "item-audit-port.md",
+  "name": "item-audit-port",
+  "desc": "道具功能全量审计管线+vi_工具/药水桥接——清单表生成脚本、逐类覆盖判定、引擎级缺口清单",
+  "day": "08-11",
+  "sid": "d6caec24"
+ },
+ {
+  "file": "item-tooltip-parity-port.md",
+  "name": "item-tooltip-parity-port",
+  "desc": "\"悬停气泡1:1(GetLinesInfo :20488-20920):vi_武器伤害/暴击/速度档/击退档/渔力/镐斧锤力×5/耗魔/可放置·弹药·消耗品/材料/容器/Buff持续全量;数据坑:item.ammo在combat json非func;斧显示×5;官方中文坑:Container译'收集附近掉落物'\"",
+  "day": "08-18",
+  "sid": "ec878731"
+ },
+ {
+  "file": "journey-page.md",
+  "name": "journey-page",
+  "desc": "从0到1大师级开发史长页 docs/sandboxworld-journey.html 与其生成器 build-journey.py",
+  "day": "08-18",
+  "sid": "e65c4575"
+ },
+ {
+  "file": "js-bitwise-int32-traps.md",
+  "name": "js-bitwise-int32-traps",
+  "desc": "JS 位运算陷阱：^/<< 返回有符号 int32，1<<31 为负——两次事故（seedPick 负索引崩溃/FastRandom 拒绝采样死循环）",
+  "day": "08-10",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "jungle-parity-and-id-collision.md",
+  "name": "jungle-parity-and-id-collision",
+  "desc": "丛林链种子等价全绿(terrain..desertmound 19 checkpoint) + 内部EMPTY(0)≡原版幽灵泥土(0) id碰撞 + rng.int上界开/闭换算三案",
+  "day": "08-16",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "king-slime-crown-ninja.md",
+  "name": "king-slime-crown-ninja",
+  "desc": "史莱姆王视觉——金冠=Extra_39叠画(Main.cs:25571另一switch，grep \"type == 50\"会漏)、忍者=Ninja.png叠画、母史莱姆死亡分裂Baby(-5)",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "kkkkk-campsite-mahogany-engine.md",
+  "name": "kkkkk-campsite-mahogany-engine",
+  "desc": "\"#101槽全零批：引擎solidAllowSide左右坡各漏一项(L排{1,3}/R排{2,4})+check2x1Sweep补185六带掉落掷+尾双SquareTileFrame；campsite四根因(Place3x2中心锚/篝火+36帧/倒木地面门错行/金币堆无门覆盖写)+mahogany三链漏wall清(W2178)；moss184帧写侧查证已收敛(FRAMES解析双布局坑)；新派发CheckAlch/CheckJunglePlant/Check2xX三击杀族\"",
+  "day": "08-19",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "l10n-bare-key-incident.md",
+  "name": "l10n-bare-key-incident",
+  "desc": "\"NeedTempleKey裸键事故全链——顶层点分键被整键当类别成{\\\"键\\\":{\\\"\\\":\\\"文本\\\"}};审计整段键兜底放行非字符串;三闸门+运行时自愈\"",
+  "day": "08-13",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "lantern-style-axis.md",
+  "name": "lantern-style-axis",
+  "desc": "灯笼不发光根因=竖排样式家族帧编码错(TileObjectData 默认 StyleHorizontal=false);placeFurn 横排假设受害清单",
+  "day": "08-11",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "launcher-ammo-pickammo-parity.md",
+  "name": "launcher-ammo-pickammo-parity",
+  "desc": "发射器弹药族对账——PickAmmo 弹型解析是加法非替换(火箭一型打出隐形弹根因)+Specific匹配表60对+AI_016发射支fired模式五族行为+地形闸门表",
+  "day": "08-14",
+  "sid": "ec878731"
+ },
+ {
+  "file": "leak-family-sweep.md",
+  "name": "leak-family-sweep",
+  "desc": "全仓泄露家族大扫除:双代理341文件+自查,修13处(合成滚轮风暴/append-only DOM/closeAll缺口/PaperDoll无闸tint×2/强引用钉死/销毁断线×3/叠面板/滑杆IO风暴/Game残留引用);34有界缓存登记表",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "leftover-closeout-4batch.md",
+  "name": "leftover-closeout-4batch",
+  "desc": "遗留收口四路批:召唤落位统一SpawnOnPlayer/红帽骷髅王真链(坐沙发非马桶)/EoW头部精确门/弹540星尘标记AI_103+402BFS孵化链/迅猛龙54表五档/冰面无输入腿行0/棉花糖IsFood帧2/QuickHeal虚空袋bank4",
+  "day": "08-18",
+  "sid": null
+ },
+ {
+  "file": "lighting-parity-audit.md",
+  "name": "lighting-parity-audit",
+  "desc": "发光物全量对账三路+P0修复批+收敛批:ProjLight绝对通道/Dart双注摘除/tile光源66+动态33/掉落物全分支/水母笼态机/风格族四表",
+  "day": "08-13",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "liquid-buffer-reflow-parity.md",
+  "name": "liquid-buffer-reflow-parity",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "liquid-desert-blast-finalgen-fix.md",
+  "name": "liquid-desert-blast-finalgen-fix",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "liquid-settle-perf.md",
+  "name": "liquid-settle-perf",
+  "desc": "液体沉降 12-20× 零风险提速:buffer 头指针队列(曾 O(n²) 主热点)+实心 LUT;冻结快照 A/B 逐字节闸门法",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "liquidtype-plus-one-encoding.md",
+  "name": "liquidtype-plus-one-encoding",
+  "desc": "\"TileStore.liquidType 是原版+1编码(0无1水2岩浆),照抄原版 liquidType==0/!=0 的移植必死循环;水中箱两案\"",
+  "day": "08-12",
+  "sid": "ec878731"
+ },
+ {
+  "file": "load-perf-batch.md",
+  "name": "load-perf-batch",
+  "desc": "读档链路零风险优化:worker 回传收窄/fromPacket 免丢弃分配/load 免轮尾扫描/RLE 局部化;decode 150-350ms 构成实测",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "load-progress-vanilla.md",
+  "name": "load-progress-vanilla",
+  "desc": "\"读档进度对齐原版:gen51\\\"正在加载世界数据\\\"按列/gen27\\\"正在安置液体\\\"收敛比例50-100;settle p 语义从 iter 计数改收敛比例\"",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "load-ui-nan.md",
+  "name": "load-ui-nan",
+  "desc": "读档换 UIWorldLoadState(创建世界同款 VUI 页)+NaN% 三端防御;真源疑=HMR 新旧 JS 混跑(p 语义切换期)",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "local-item-retirement.md",
+  "name": "local-item-retirement",
+  "desc": "184本地物品退役vi_单空间:迁移锚快照/v4存档armor稳定id/createTile回填/钱币单轨/v3裸下标vi_分支禁走稳定表",
+  "day": "08-18",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "loot-parity-audit.md",
+  "name": "loot-parity-audit",
+  "desc": "宝箱战利品全表对账+修复批:地牢生物群系箱写反(P0)/堆叠两处/lootSeq回卷/金箱ivy/h-250门/flag9-12-13尾段/地狱序成功才递增",
+  "day": "08-13",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "lowend-perf-trace-161246.md",
+  "name": "lowend-perf-trace-161246",
+  "desc": "trace 16:12 CPU剖析=粒子碰撞42.7%冠军(逐粒子isSolid)+clientWidth/matchMedia逐帧布局读;三刀落地(SOLID_LUT+内联粒子循环+双缓存);低配机优化点清单(粒子cap/光照模糊/小地图节流)",
+  "day": "08-19",
+  "sid": "8405c930"
+ },
+ {
+  "file": "marble-slab77-kill-typegate.md",
+  "name": "marble-slab77-kill-typegate",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "mechanics-audit-2026-08-12.md",
+  "name": "mechanics-audit-2026-08-12",
+  "desc": "26 机制集成审计结论+难度错接高危 bug 修复（世界难度与角色难度拆轴）",
+  "day": "08-12",
+  "sid": "04569a63"
+ },
+ {
+  "file": "melee-hitbox-sprite-base.md",
+  "name": "melee-hitbox-sprite-base",
+  "desc": "\"近战判定盒基底=手持贴图帧宽高(Player.cs:44485 !dedServ分支),32×32仅服务器兜底——曾被半截读法误改恒32,长武器(村正64×64)判定缩半\"",
+  "day": "08-17",
+  "sid": "413208b1"
+ },
+ {
+  "file": "menu-sun-layering-fix.md",
+  "name": "menu-sun-layering-fix",
+  "desc": "菜单\"太阳跑到前景前面\"根因=TitleMenu DOM 日月体恒可见垫整画布之上;修复=常态隐藏仅抓取中显示;画布太阳才是原版语义",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "meteor-fall-port.md",
+  "name": "meteor-fall-port",
+  "desc": "陨石坠落事件 2026-08-13 1:1 移植终态:触发/消费/五层crater/流星雨/天幕流星;双会话并行时的分工与坑",
+  "day": "08-13",
+  "sid": "ec878731"
+ },
+ {
+  "file": "mining-model-port.md",
+  "name": "mining-model-port",
+  "desc": "挖掘/砍伐伤害 1:1 移植——铜斧砍树 13 击（原版），伤害公式/冷却基准/tileNoFail/门槛表",
+  "day": "08-11",
+  "sid": null
+ },
+ {
+  "file": "mobile-controls-port.md",
+  "name": "mobile-controls-port",
+  "desc": "移动端适配：触摸合成(Input.touchKeys/世界触摸长按=右键)/虚拟控件层(摇杆跳跃攻击光标钩爪药水)/横屏全屏；钩爪最小引擎；探针_mobileprobe 20步",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "moon-cycle-port.md",
+  "name": "moon-cycle-port",
+  "desc": "月亮周期系统全量审计+补齐（血月六缺口/钓鱼月相乘区/腐化变换/血泪/破门/地表化提升）",
+  "day": "08-12",
+  "sid": "d6caec24"
+ },
+ {
+  "file": "moonlight-audit.md",
+  "name": "moonlight-audit",
+  "desc": "\"夜间月光=tileColor种子×月相地板(满月19/新月11);链路已1:1在跑,夜黑=原版行为;MoonPhase枚举Full=0起\"",
+  "day": "08-14",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "moonlight-revert-moon-inject.md",
+  "name": "moonlight-revert-moon-inject",
+  "desc": "\"2026-08-20定案:worldLayer月光重构整体回滚(默认关,?worldlayer=1选择加入);稳定基线=下午版全屏乘光;夜月唯一修复=月盘注光;光照对原版大差距另立专案docs/lighting-parity-project.md\"",
+  "day": "08-20",
+  "sid": "8405c930"
+ },
+ {
+  "file": "moonlight-worldlayer-split.md",
+  "name": "moonlight-worldlayer-split",
+  "desc": "夜月不亮根因=compositeLight全屏乘光吞天空；修=世界层离屏画布+光照按层alpha成形（原版分层语义）",
+  "day": "08-19",
+  "sid": "04569a63"
+ },
+ {
+  "file": "moss-pass-65-four-root-causes.md",
+  "name": "moss-pass-65-four-root-causes",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "multijump-fx-port.md",
+  "name": "multijump-fx-port",
+  "desc": "\"多段跳特效全链补齐:起跳帧(音Item_16/屁瓶10尘188+3gore435/航行30尘253)+持续尾迹doubleJumpVisuals五分支(沙暴3尘124/tick+gore220-223沙云随平台段缩放/暴雪三段8尘76/云屁1尘/航行1-2尘253);performingJump标记落地清;探针armor[3]塞配饰非末槽(10-19时装镜像)\"",
+  "day": "08-17",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "multiplayer-capacity-opt-batch.md",
+  "name": "multiplayer-capacity-opt-batch",
+  "desc": "\"2026-08-12 联机容量优化批 P0-P3 全量落地:AOI/短码表 v4/合包/strip缓存/持久化/插值,文件与探针索引\"",
+  "day": "08-12",
+  "sid": "ec878731"
+ },
+ {
+  "file": "multiplayer-room-system.md",
+  "name": "multiplayer-room-system",
+  "desc": "多人联机现状——中央服务器房间制 v3（房间码/公开性/双保护），探针与端口约定",
+  "day": "08-11",
+  "sid": "372ae608"
+ },
+ {
+  "file": "music-extraction-off-by-one.md",
+  "name": "music-extraction-off-by-one",
+  "desc": "BGM 提取两代错位的根因与修复——定位必须用 XWB 内嵌流名，vgmstream -s 是 1 基",
+  "day": "08-10",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "npc-ambient-sound-audit.md",
+  "name": "npc-ambient-sound-audit",
+  "desc": "怪物音效全量审计:HitSound/DeathSound已数据驱动;AI内嵌周期音缺口大(idle表32类/小动物/critter/闲话表全缺);蠕虫roar已修",
+  "day": "08-18",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "npc-damage-gate-port.md",
+  "name": "npc-damage-gate-port",
+  "desc": "玩家弹/爆炸对城镇NPC伤害门(Damage_PVE_Inner三例外:臭鸡蛋318无条件/巫毒22·54装备门/explodeAt同门);hitTownNpcs已有projId参;Arrow友方支曾整缺",
+  "day": "08-18",
+  "sid": "ec878731"
+ },
+ {
+  "file": "npc-extra-limb-drawing.md",
+  "name": "npc-extra-limb-drawing",
+  "desc": "NPC 附属肢体（藤蔓/链/臂骨）是 Main.cs DrawNPC 叠画分支，非贴图表；已移植清单+遗留缺口",
+  "day": "08-11",
+  "sid": "d65984ee"
+ },
+ {
+  "file": "npc-frame-golden-gate.md",
+  "name": "npc-frame-golden-gate",
+  "desc": "NPC帧数硬闸门npc-frame-golden.test.ts三层+贴图自洽;运行时直读Main.cs零快照;三破坏性自证全炸;研究UI l10n缺失归并行",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "npc-frame-ironclad-audit.md",
+  "name": "npc-frame-ironclad-audit",
+  "desc": "\"全NPC帧数石锤复核:json×Main.npcFrameCount[697]×贴图高三方零差;修4错帧+补13缺失(589被困高尔夫球手spawner静默丢弃);帧数唯一权威=json frames勿高/56反推\"",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "npcdrops-audit-fix.md",
+  "name": "npcdrops-audit-fix",
+  "desc": "掉落系统1:1审计修复——slimeBody堆叠case提取器bug/初速度vy差0.1/心星luck/雕像AnyInteractions；钱币乘子链·bossBag族·value表·EoC规则逐项核对通过",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "ocean-sand-hellfort-parity.md",
+  "name": "ocean-sand-hellfort-parity",
+  "desc": "海里单体沙三根因修复(ShellPiles 锚点自创/顺序反/引力沙缺失)+地狱建筑只在中部50%是原版行为非bug",
+  "day": "08-12",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "oldman-curse-respawn-fix.md",
+  "name": "oldman-curse-respawn-fix",
+  "desc": "老人诅咒链杀王后复活根因=downed旗标双键漏改五门；skeletronDowned()助手统一；老人AI自灭语义(NPC.cs:53743-53760)",
+  "day": "08-17",
+  "sid": "573d63f5"
+ },
+ {
+  "file": "oooo-deep-residuals-batch.md",
+  "name": "oooo-deep-residuals-batch",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "oracle-dome-mirror-mmmm-sync.md",
+  "name": "oracle-dome-mirror-mmmm-sync",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "ore-system-audit.md",
+  "name": "ore-system-audit",
+  "desc": "矿物分布/出产时机审计:Shinies+宝石+oreTiers+陨石+暗影珠链+祭坛公告全 1:1;仅剩祭坛拆除盒邻坛误拆小项",
+  "day": "08-13",
+  "sid": "413208b1"
+ },
+ {
+  "file": "overall-review-2026-08-13.md",
+  "name": "overall-review-2026-08-13",
+  "desc": "整体review四维度:管线三pass补缺+两顺序归位/BossAI十修(underworldLayer=陨石线大坑)/getGoodAdjustments整族缺失=下批首选/月事件Boss无boss位误占槽",
+  "day": "08-13",
+  "sid": "8f9c7b63"
+ },
+ {
+  "file": "palm-chop-tileaxe-parity.md",
+  "name": "palm-chop-tileaxe-parity",
+  "desc": "树族砍伐+生命周期全对齐:v_323缺axe根因;★gemcorn门在树顶标记格(一审误修干基);砍伐=切口及以上树桩保留;木材按基座草族;仙人掌CheckCactus三规则+vi_276;橡实11档锚点表/再生之斧补种/Lucy全消息机/苗成长分发(frameX/54档)",
+  "day": "08-17",
+  "sid": "ec878731"
+ },
+ {
+  "file": "parallel-vite-sessions.md",
+  "name": "parallel-vite-sessions",
+  "desc": "并行会话打断探针的根因=共用 5199 HMR 重载;解法=SW_PORT/SW_NO_HMR/SW_CACHE 私有静默实例 + 探针 SW_ORIGIN",
+  "day": "08-12",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "perf-anomaly-fix-batch.md",
+  "name": "perf-anomaly-fix-batch",
+  "desc": "性能异常扫描修复批:ChunkCache 三漏释放+Audio LRU+invalidateAll 去抖+三微改;30/36 扫描项处置结论",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "perf-audit-2026-08.md",
+  "name": "perf-audit-2026-08",
+  "desc": "\"2026-08-10 全局内存/性能审计:实测+双代理静态分析,分级风险清单与修复优先级\"",
+  "day": "08-10",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "pets-port.md",
+  "name": "pets-port",
+  "desc": "宠物系统（vanity/light pet 86件提取+跟随实体+装备驱动存续+移动端召唤键）；DefaultToVanitypet 参数序坑；buff 栏宠物图标未接",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "plantera-parity-audit.md",
+  "name": "plantera-parity-audit",
+  "desc": "世纪之花262全链1:1对齐批:召唤SpawnOnPlayer化/灯泡爆发接通/弹幕物理/毒buff/专家分支/商店门/Wiring死门/测试13条",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "platform-standable-framey-fix.md",
+  "name": "platform-standable-framey-fix",
+  "desc": "平台站立穿透根因=把家具 frameY==0 门错套到平台族;原版 tileSolid∩tileSolidTop 四件套 frameY=材质行与站立无关",
+  "day": "08-17",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "player-jump-vanilla-alignment.md",
+  "name": "player-jump-vanilla-alignment",
+  "desc": "起跳/下落全链对齐原版:jumpSpeed 5.01(曾6.6猛32%)/jumpHeight 15平台段恒钉-5.01(曾-0.22累加抛物线头)/松键只+0.01无跳高截断(曾vy=2狠掐)/jumpBoost→20+6.51链/水中30+6.01+g0.2+fall5;实测跳高5.84格≈原版6格;tick序=JumpMovement钉→重力+0.4→位移(-4.61与原版同)",
+  "day": "08-15",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "pppp-tail-debts-sweep.md",
+  "name": "pppp-tail-debts-sweep",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "proj-draw-offset-table.md",
+  "name": "proj-draw-offset-table",
+  "desc": "投射物绘制偏移表 num143/num144 移植——炸弹引线出盒对齐的权威公式与已备案动态项",
+  "day": "08-18",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "proj-rotation-right-art.md",
+  "name": "proj-rotation-right-art",
+  "desc": "弹幕旋转两族——AI_001默认+π/2(箭/子弹朝上)vs朝右贴图ToRotation族;食人鱼190/魔法飞弹16/Flamelash34五款入表",
+  "day": "08-13",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "pvp-system-port.md",
+  "name": "pvp-system-port",
+  "desc": "PvP 全链移植完成——victim-settles 权威模型/协议 v7/StatusPvP 双表/探针抓三真 bug/备案偏差清单",
+  "day": "08-13",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "pyramid-plate-coin-portal.md",
+  "name": "pyramid-plate-coin-portal",
+  "desc": "\"金字塔无压板=原版行为(Pyramid()本体+wiki三方实证,压板在全局Traps pass且wall==0门进不了金字塔);真缺口=瓦罐钱币传送门1/125已全链补齐(AI_094+potCoinMul+地狱罐hardmode门修正)\"",
+  "day": "08-14",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "pyramid-wallframe-die-debt.md",
+  "name": "pyramid-wallframe-die-debt",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "qqqq-three-chain-final-batch.md",
+  "name": "qqqq-three-chain-final-batch",
+  "desc": "",
+  "day": "08-20",
+  "sid": null
+ },
+ {
+  "file": "recipe-engine-port.md",
+  "name": "recipe-engine-port",
+  "desc": "配方引擎 1:1 完成态(2026-08-13):3173配方+decraft全链+RecipeGroup双侧语义+value=0真相;提取器与测试索引",
+  "day": "08-13",
+  "sid": "ec878731"
+ },
+ {
+  "file": "reference-vanilla-source-of-truth.md",
+  "name": "reference-vanilla-source-of-truth",
+  "desc": "\"用户约定的开发原则——发现异常时必须先对照反编译源码/TEdit 校对再修,它们是正确标杆\"",
+  "day": "08-09",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "remaster-studio-pipeline.md",
+  "name": "remaster-studio-pipeline",
+  "desc": "素材重制管线(Remaster Studio)全链落地:AssetCatalog 六类切帧聚合+gpt-image-2 逐帧重制+zip 素材包热补丁(类 mod 局部覆盖)",
+  "day": "08-19",
+  "sid": "be9285e0"
+ },
+ {
+  "file": "review-found-bugs-fix.md",
+  "name": "review-found-bugs-fix",
+  "desc": "对抗性审查抓出11真bug全修:红帽ai3断链(普通骷髅王刷Chippy套装漏洞=ai3被旋冲挪用skeletronSpinDir独立)/史莱姆雨第三参未传+downedSK单读/光女弹幕9999五处+dash覆写序+真狂暴入夜离场/弹540孵化Bottom锚/兔子站定清walkCycleT相位/静持锚传真实useStyle/钓竿谓词补2421·2422/Critter.ts删除后测试迁移(player stub+onEnemyKilled)",
+  "day": "08-18",
+  "sid": null
+ },
+ {
+  "file": "round6-review-fixes.md",
+  "name": "round6-review-fixes",
+  "desc": "2026-08-09 全阶段 review(4 代理对照反编译源码)+ 偏差修复清单与遗留项",
+  "day": "08-09",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "rrrr-frame-kill-engine.md",
+  "name": "rrrr-frame-kill-engine",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "rrrrr-dyeplants-place-tile-mirror.md",
+  "name": "rrrrr-dyeplants-place-tile-mirror",
+  "desc": "",
+  "day": "08-20",
+  "sid": null
+ },
+ {
+  "file": "sandboxworld-project-setup.md",
+  "name": "sandboxworld-project-setup",
+  "desc": "SandboxWorld 泰拉瑞亚复刻项目的位置、运行方式与测试脚本",
+  "day": "08-11",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "save-parity-port.md",
+  "name": "save-parity-port",
+  "desc": "存档 1:1 对账(WorldFile/PlayerFile):npcs 三重断链+worker packet 黑洞已修;buffs/税金/血月/moonType 对齐;依赖未实装清单",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "seed-equivalence-plan.md",
+  "name": "seed-equivalence-plan",
+  "desc": "种子等价路线图 L0 已完成——UnifiedRandom/Crc32/TranslateSeed 位级移植+真二进制金标，L2 金标 .wld 待用户产出",
+  "day": "08-11",
+  "sid": "0650e0c7"
+ },
+ {
+  "file": "selfinvented-ui-l10n-batch.md",
+  "name": "selfinvented-ui-l10n-batch",
+  "desc": "自造UI全量多语言批:8面板~90键落地+原版官译键优先原则;并行会话撞车同键不同值的合并裁决;扫描器工具留档",
+  "day": "08-16",
+  "sid": "413208b1"
+ },
+ {
+  "file": "server-room-simhost-port.md",
+  "name": "server-room-simhost-port",
+  "desc": "服务器权威房(SimHost)B1-B3 批落地——进程内虚拟房主经 room.handle 复用中继管线;GM 规则执法;协议 v8 增量纪律",
+  "day": "08-18",
+  "sid": "a476813d"
+ },
+ {
+  "file": "session-archives-export.md",
+  "name": "session-archives-export",
+  "desc": "\"全量会话档案导出位置与再生成方法——session-archives/ 415MB,737 个 md,含 545 份子代理实录\"",
+  "day": "08-15",
+  "sid": "e65c4575"
+ },
+ {
+  "file": "sfx-distance-attenuation.md",
+  "name": "sfx-distance-attenuation",
+  "desc": "音效距离衰减移植——LegacySoundPlayer 2500px 公式、监听器=相机中心、x=-1 不衰减语义、进世界巨响根因",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "shader-truth-pipeline.md",
+  "name": "shader-truth-pipeline",
+  "desc": "\"★shader唯一真值管线:tools/disasm-fx.mjs反汇编XNA4 effect(.cso)+src/fx/SM2Effect.ts逐指令解释器;terraria-assets/{Pixel,Screen,Tile}Shader.cso全量在仓;关键pass行号表;染料/翅膀已消费\"",
+  "day": "08-20",
+  "sid": "8405c930"
+ },
+ {
+  "file": "shimmer-audit-status.md",
+  "name": "shimmer-audit-status",
+  "desc": "微光对齐全景:生成 pass 1:1(已有 C# oracle checkpoint 金标对账)/转化系统/宝石树全链/月相砖已接;生成侧遗留已闭环",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "shimmer-decraft-pickup-fix.md",
+  "name": "shimmer-decraft-pickup-fix",
+  "desc": "微光分解浮出拾取链两个真bug(恒加速上浮永不减速/拉动死锁);探针7断言;自建湖必须封底防LiquidSim漏干",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "smoothworld-12345-checksuper-inactive.md",
+  "name": "smoothworld-12345-checksuper-inactive",
+  "desc": "",
+  "day": "08-18",
+  "sid": null
+ },
+ {
+  "file": "snow-blizzard-ripple-fix.md",
+  "name": "snow-blizzard-ripple-fix",
+  "desc": "雪原下雨无雨滴=缺snowing雪粒系统(暴风雪)/涟漪位置错=自创环系统双画退役+splash公式修正",
+  "day": "08-14",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "spawn-friendly-port.md",
+  "name": "spawn-friendly-port",
+  "desc": "兔鼠刷到浮空岛的根因=spawnFriendly 掷骰未移植(NPC.cs:711-832);townNPCs 门/概率表/敌怪链守卫",
+  "day": "08-11",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "spawn-pool-aggro-audit-2026-08-17.md",
+  "name": "spawn-pool-aggro-audit-2026-08-17",
+  "desc": "出怪池+仇恨脱战双代理全量审计:9处修复(墙色档/661夜窗/蒲公英门/476十周年/RollLuck/骨堆/slimeRain/蠕虫地表脱战/吸血蝙蝠白天);脱战核心=CheckActive已1:1",
+  "day": "08-17",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "spawn-progression-audit.md",
+  "name": "spawn-progression-audit",
+  "desc": "肉后出怪池/数值强化对账终审:隔离已1:1;数值=换池+ExpertHardmode兜底(花后80→100);月后原版无影响;四缺口已修",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "spawner-vanilla-alignment.md",
+  "name": "spawner-vanilla-alignment",
+  "desc": "刷怪系统 1:1 对齐大修（2026-08-11 多代理审查）——已修清单、生成端照妖镜案例、诊断法、数据缺口",
+  "day": "08-11",
+  "sid": "372ae608"
+ },
+ {
+  "file": "ssss-tail-clearance-batch.md",
+  "name": "ssss-tail-clearance-batch",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "staff-regrowth-port.md",
+  "name": "staff-regrowth-port",
+  "desc": "再生法杖没效果三根因:近战/工具分支return截胡放置链(213=melee+createTile2)+草族转化放置语义缺失+药草采收链近似;AccFx.flowerBoots类型补法=BEHAVIOR_FX表",
+  "day": "08-17",
+  "sid": "ec878731"
+ },
+ {
+  "file": "statues-sweep-port.md",
+  "name": "statues-sweep-port",
+  "desc": "m/s链#58清零=PlaceTile case105尾SquareTileFrame无条件级联(惰性帧校验杀165/187/485/484)+flag2双门/幻影成功/陷阱Boulders门;484本地补件(HalfBrickPass同源惯例);零帧帧债垫片勿泛化(活树零帧/187 styleCol门);spawn-tree红=#32 Dungeon债×TrackPass放大非回归",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "stepdown-flying-critter-fix.md",
+  "name": "stepdown-flying-critter-fix",
+  "desc": "\"萤火虫/蝴蝶\\\"怪力按压闪现\\\"根因=StepDown宽门vy>=0;修复=NPC族wasGround门/玩家vy===GRAVITY字面门\"",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "string-accessory-system.md",
+  "name": "string-accessory-system",
+  "desc": "线饰品系统全链——stringColor 装备统计/共享 StringLine 段链/XNA 预乘混合三档/提取器落空 case 修复",
+  "day": "08-19",
+  "sid": "cb3a4729"
+ },
+ {
+  "file": "summoner-full-parity-batch.md",
+  "name": "summoner-full-parity-batch",
+  "desc": "召唤师全量1:1批：数值链(SUMMON_GEAR/SET)/星尘龙链体/虎阿比盖尔计数器两段式/守护者/鞭射程表+衰减+OnHit proc；instanceof HMR fork 探针坑",
+  "day": "08-12",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "summoner-ranged-minions.md",
+  "name": "summoner-ranged-minions",
+  "desc": "射击型召唤物全量落地：AI_062 五族/AI_026 俾格米掷矛/aiStyle66 双子激光/aiStyle53+123 五哨兵——表驱动 MINION_SHOOT+SENTRY_SHOOT",
+  "day": "08-12",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "summoner-whip-sfx-facing.md",
+  "name": "summoner-whip-sfx-facing",
+  "desc": "召唤师收尾批：随从朝向翻转(AI_062 :62975)+鞭响 Item_152/召唤杖声 Item_44；SfxName 联合续行不能踩行尾分号",
+  "day": "08-12",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "sw-asset-preload-port.md",
+  "name": "sw-asset-preload-port",
+  "desc": "SW 资产持久缓存全链:分块接力warm(单发全量会被SW~3min击杀)/门槛弹窗像素风/scheme门/离线壳缓存;E2E双探针全PASS",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "system-coverage-audit.md",
+  "name": "system-coverage-audit",
+  "desc": "全量系统缺口审计（三代理对账）+ 星星雨/陨石/派对/快乐度四子系统+四遗留全落地",
+  "day": "08-13",
+  "sid": "d6caec24"
+ },
+ {
+  "file": "systems-final-batch.md",
+  "name": "systems-final-batch",
+  "desc": "系统补齐总攻批终态：多会话撞车协调(3代理停)/宠物AI 61款三族(竖排帧bug)/Journey研究6089表/event46=Joja可乐/GOING_OLDSCHOOL=日月拖拽/event27世界纯净；55测试绿",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "tail-five-fixes-69-77.md",
+  "name": "tail-five-fixes-69-77",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "terraria-assets-pipeline.md",
+  "name": "terraria-assets-pipeline",
+  "desc": "Terraria 全量素材解包与 ID 对照表/素材功能表的工具链和数据位置",
+  "day": "08-09",
+  "sid": "e27c53f3"
+ },
+ {
+  "file": "thrown-physics-fix.md",
+  "name": "thrown-physics-fix",
+  "desc": "投掷武器距离偏短根因=误用箭矢物理档;原版aiStyle2默认档=20t平飞/0.4重力/0.97阻力/终端32/翻滚",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "tile-passability-audit.md",
+  "name": "tile-passability-audit",
+  "desc": "全物块通行性双向审计:tileSolid/tileSolidTop 全表提取(399条)+站台家具84类+holdsMatching踏台+致动门;tileSolidBackup还原铁律(生成期翻转全是临时);Housing房间边界=纯tileSolid",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "time-system-11-port.md",
+  "name": "time-system-11-port",
+  "desc": "时间系统1:1：昼夜边界4:30/19:30常量Clock.DAWN/DUSK、全周期24min恒速tick(勿分段调速!)、起始8:15AM、time↔Main.time换算86400",
+  "day": "08-12",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "town-banner-doors.md",
+  "name": "town-banner-doors",
+  "desc": "城镇 NPC 入驻旗帜渲染（DrawNPCHousesInWorld 非放置 tile）+ NPC 开关门语义",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "town-npc-attack-port.md",
+  "name": "town-npc-attack-port",
+  "desc": "城镇NPC自卫攻击(AI_007四态)+头顶表情气泡移植;NaN判距门教训;Extra_48是表情总表",
+  "day": "08-12",
+  "sid": "c212e38d"
+ },
+ {
+  "file": "town-npc-persistence.md",
+  "name": "town-npc-persistence",
+  "desc": "城镇 NPC 存档/wld 导入持久化 + bound NPC 被入驻轮塞进同一空房叠加的修复",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "trackpass-smoothslope-parity.md",
+  "name": "trackpass-smoothslope-parity",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "tree-bottom-grass-overwrite.md",
+  "name": "tree-bottom-grass-overwrite",
+  "desc": "无根树终审(2026-08-18 GGGG推翻2026-08-15旧裁决):Flowers杀干基后原版经KillTile尾SquareTileFrame→TileFrame case5→CheckTree整树坍塌——原版无\"断一格站立的树\";旧裁决只核到KillTile漏了级联;JS已1:1补级联(killTileTree);零genRand;x86实测231/219干列地面全实心族",
+  "day": "08-18",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "tree-statue-drop-investigation.md",
+  "name": "tree-statue-drop-investigation",
+  "desc": "砍树掉靴子雕像排查:1444刀+400摇全净(现build无泄漏);靴子雕像=item 462无任何生产者;斧本不能破坏雕像(pick专属);最可能=地上旧掉落物误归因",
+  "day": "08-18",
+  "sid": "ec878731"
+ },
+ {
+  "file": "treecrack-gc-frameguard-2026-08-18.md",
+  "name": "treecrack-gc-frameguard-2026-08-18",
+  "desc": "砍树拾取崩溃定位(trace ProfileChunk 法+死亡签名)+inv.add守卫+主循环熔断;行走掉帧=GC churn(lq() 零分配化)",
+  "day": "08-18",
+  "sid": "8405c930"
+ },
+ {
+  "file": "treecrown-seam-and-topsize.md",
+  "name": "treecrown-seam-and-topsize",
+  "desc": "树冠-干接缝无专项处理全靠offY下压公式;最近邻旋转丢像素→风摆层改线性(XNA同构);treeTopSize对9帧表(3/19)失效神圣树244三联冠已修",
+  "day": "08-17",
+  "sid": null
+ },
+ {
+  "file": "ttttt-golden-chain-verdict.md",
+  "name": "ttttt-golden-chain-verdict",
+  "desc": "",
+  "day": "08-20",
+  "sid": null
+ },
+ {
+  "file": "underground-bg-tiling-fix.md",
+  "name": "underground-bg-tiling-fix",
+  "desc": "地下带状背景平铺几何 1:1——160宽贴图实际周期128(两侧16px padding)/垂直相位锁带顶/caveParallax 0.88 视差;整宽平铺=蘑菇区远景错位根因",
+  "day": "08-17",
+  "sid": "9adce254"
+ },
+ {
+  "file": "underworld-iso-hf-residual.md",
+  "name": "underworld-iso-hf-residual",
+  "desc": "",
+  "day": "08-17",
+  "sid": null
+ },
+ {
+  "file": "use-path-final-audit.md",
+  "name": "use-path-final-audit",
+  "desc": "道具使用链终审:传送族/永久升级/桶/饰品装备死路径/迁移表冻结化;钩爪宠物坐骑信息饰品乐器为引擎级缺口",
+  "day": "08-17",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "uuuu-tttt-residual-clearance.md",
+  "name": "uuuu-tttt-residual-clearance",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "vanilla-1456-upgrade-notes.md",
+  "name": "vanilla-1456-upgrade-notes",
+  "desc": "\"1.4.0.5→1.4.5.6 差异文档位置与升级路线——docs/upgrade-1405-to-1456/,数据源最终态一律取 Terarria1456\"",
+  "day": "08-09",
+  "sid": "e65c4575"
+ },
+ {
+  "file": "vanilla-beach-plants-fix.md",
+  "name": "vanilla-beach-plants-fix",
+  "desc": "杂草草族门禁+贝壳堆/海藻 pass+螃蟹确认+蘑菇采集掉落（双地图对账驱动）",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "vanilla-bgm-background-port.md",
+  "name": "vanilla-bgm-background-port",
+  "desc": "原版 BGM+世界背景图移植：xwb 提取(cue→wave 映射大坑)/选曲链/SceneMetrics/BiomeBackground",
+  "day": "08-11",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "vanilla-door-frames.md",
+  "name": "vanilla-door-frames",
+  "desc": "原版门帧竖排布局算法 + 各 gen pass 放门要 -2 的坑，Door.ts 助手与回归测试位置",
+  "day": "08-09",
+  "sid": "8f9c7b63"
+ },
+ {
+  "file": "vanilla-language-port.md",
+  "name": "vanilla-language-port",
+  "desc": "\"原版语言系统移植完成 — 12语言/默认zh-Hans/设置切换、扁平语言包构建管线、{$}构建期展开、flattenDeep陷阱\"",
+  "day": "08-11",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "vanilla-lighting-port.md",
+  "name": "vanilla-lighting-port",
+  "desc": "原版光照系统 LightingEngine/LightMap/TileLightScanner 1:1 移植完成——文件布局/关键语义/陷阱/验证",
+  "day": "08-11",
+  "sid": "8f9c7b63"
+ },
+ {
+  "file": "vanilla-liquid-port.md",
+  "name": "vanilla-liquid-port",
+  "desc": "液体系统已一比一移植原版 Liquid.cs/WaterfallManager；attemptToMoveLiquid 异种判定语义曾致全图黑曜石化",
+  "day": "08-09",
+  "sid": "372ae608"
+ },
+ {
+  "file": "vanilla-names-i18n.md",
+  "name": "vanilla-names-i18n",
+  "desc": "物品/方块命名全走 l10n；方块名=放置物品（createTile 反查）；审计脚本模式",
+  "day": "08-10",
+  "sid": "04569a63"
+ },
+ {
+  "file": "vanilla-npc-drops-port.md",
+  "name": "vanilla-npc-drops-port",
+  "desc": "击杀掉落系统 1:1 重做——结构化规则提取器+求值运行时+钱币心星管线，旧 regex 掉落表已退役",
+  "day": "08-11",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "vanilla-npc-json-gaps.md",
+  "name": "vanilla-npc-json-gaps",
+  "desc": "vanilla-npcs.json 缺 588/633/663 三个城镇 NPC 导致\"整张贴图条当一帧画\"——补数据与帧数权威来源",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "vanilla-npc-port.md",
+  "name": "vanilla-npc-port",
+  "desc": "怪物移植完成度高：数据+掉落+12 族 AI+群系/水域/小动物(CountsAsCritter)生成全落地；余 Boss 专属 AI/HProjectile 弹幕",
+  "day": "08-10",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "vanilla-random-text-death-tombstone.md",
+  "name": "vanilla-random-text-death-tombstone",
+  "desc": "随机文本体系（世界名/NPC名/死亡文本/墓志铭）+ 死亡文本 + 墓碑 DropTombstone/aiStyle17 移植完成",
+  "day": "08-10",
+  "sid": "04569a63"
+ },
+ {
+  "file": "vanilla-resource-bars-port.md",
+  "name": "vanilla-resource-bars-port",
+  "desc": "资源条双样式：Classic 朴素心星 + Fancy 华丽金框（1.4.4+ 原版默认\"New\"样式）+ 光标原版化",
+  "day": "08-13",
+  "sid": "04569a63"
+ },
+ {
+  "file": "vanilla-shimmer-port.md",
+  "name": "vanilla-shimmer-port",
+  "desc": "",
+  "day": "08-12",
+  "sid": null
+ },
+ {
+  "file": "vanilla-solid-audit.md",
+  "name": "vanilla-solid-audit",
+  "desc": "tileSolid 全表对账+高门自动通行(DoorOpeningHelper)+6 个可通行修正",
+  "day": "08-10",
+  "sid": null
+ },
+ {
+  "file": "vanilla-ui-port.md",
+  "name": "vanilla-ui-port",
+  "desc": "UI 复刻 web 技术路线全面落地：全部菜单页 DOM 化（含世界创建页）；VUI Canvas 仅剩生成进度页（含实时地图预览）；PaperDoll 手臂已修（皮肤臂 5/7 无盔甲时也要画）",
+  "day": "08-11",
+  "sid": "d6caec24"
+ },
+ {
+  "file": "vanilla-wiring-port.md",
+  "name": "vanilla-wiring-port",
+  "desc": "原版电路系统 Wiring.cs 全量移植完成——核心文件/触发语义陷阱/测试与验证方式",
+  "day": "08-09",
+  "sid": "8f9c7b63"
+ },
+ {
+  "file": "vanilla-worldgen-passes.md",
+  "name": "vanilla-worldgen-passes",
+  "desc": "\"原版 1.4.0.5 世界生成 105 pass 完整管线清单(行号索引,从 Terarria1405/WorldGen.cs 提取)\"",
+  "day": "08-07",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "vanilla-worldgen-port-status.md",
+  "name": "vanilla-worldgen-port-status",
+  "desc": "原版世界生成 105 pass 完整移植的状态跟踪——分阶段计划与进度",
+  "day": "08-10",
+  "sid": "af6cf2c7"
+ },
+ {
+  "file": "vine-cascade-port.md",
+  "name": "vine-cascade-port",
+  "desc": "藤蔓支撑级联CheckVines移植:打中间节下方整段消失;IsVine八族同构;亲代面变型+支撑白名单",
+  "day": "08-18",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "visual-defects-corruption-fix.md",
+  "name": "visual-defects-corruption-fix",
+  "desc": "腐化区三缺陷定案:石锥风格=原版无腐化变体(非bug);黄玉悬空=TileFrame178方向基带缺失已修;暗影球缝=DRAW_Y_OFFSET 31:4无据已摘;冰锥=DesertPass placeDeco误用已改placeTight",
+  "day": "08-13",
+  "sid": "4a66e745"
+ },
+ {
+  "file": "vulture-firefly-ai-fix.md",
+  "name": "vulture-firefly-ai-fix",
+  "desc": "秃鹫不栖息反常飞扑+萤火虫下沉两案:AI_017 悬停 vy-vs-坐标单位错位;AI_064 扫描方向反+双避障块残留+随机断言 flaky",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "vvvv-matrix-final-preview.md",
+  "name": "vvvv-matrix-final-preview",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "wall-creeper-ai40-port.md",
+  "name": "wall-creeper-ai40-port",
+  "desc": "\"AI_040 爬墙蜘蛛 1:1 移植要点——164/165 是\\\"同一种怪的两个形态\\\"靠 Transform 互转，不是两种怪\"",
+  "day": "08-11",
+  "sid": "04569a63"
+ },
+ {
+  "file": "wall-family-sweep-l-batch.md",
+  "name": "wall-family-sweep-l-batch",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "water-candle-flame-fix.md",
+  "name": "water-candle-flame-fix",
+  "desc": "\"水蜡烛\\\"蓝+红焰叠加\\\"=邻焰外溢盖格;蜡烛族火焰绘制尺寸曾18x18(原版16x20零外溢);tintedFlameCell缓存键须含贴图身份\"",
+  "day": "08-17",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "water-chest-slope-land-61-62.md",
+  "name": "water-chest-slope-land-61-62",
+  "desc": "",
+  "day": "08-20",
+  "sid": null
+ },
+ {
+  "file": "waterfall-anim-frames.md",
+  "name": "waterfall-anim-frames",
+  "desc": "\"下落水柱\\\"贴图不对\\\"根因=1456 双动画帧(中列 X==16 走 0.5/s 瀑布帧),1405 移植时缺;风速调制公式\"",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "weapon-fx-audit-2026-08-13.md",
+  "name": "weapon-fx-audit-2026-08-13",
+  "desc": "\"武器特效音效全量审计:喵刀502全链1:1(喵叫/彩虹拖尾/迪斯科光/弹跳)+UseSound582件数据驱动+221独占绘制清单(仅502覆盖,清单在docs)\"",
+  "day": "08-13",
+  "sid": "ec878731"
+ },
+ {
+  "file": "weapon-invisible-remaster-pack.md",
+  "name": "weapon-invisible-remaster-pack",
+  "desc": "\"武器/弹幕全隐形真根因=worldLayer离屏重构(1b369fe2)后实体仍r.canvas.getContext直取主画布;76处迁r.ctx;★我此前\\\"fresh全绿\\\"是采样误测被用户当场戳穿\"",
+  "day": "08-19",
+  "sid": "8405c930"
+ },
+ {
+  "file": "webgl2-phase1-port.md",
+  "name": "webgl2-phase1-port",
+  "desc": "\"WebGL2 一期完成(GLSpriteLayer+背景族+全屏地图,像素级对拍);y翻转两次翻车+回归守卫测试;texSubUpdate 9参/#362CFF/纹理键碰撞三大坑全记录\"",
+  "day": "08-18",
+  "sid": "8405c930"
+ },
+ {
+  "file": "wind-sway-port.md",
+  "name": "wind-sway-port",
+  "desc": "原版风摆动系统 1:1 移植（相位钟+GetWindCycle+WindGrid 扰动+七类摆动图块摘出烘焙逐帧绘制）",
+  "day": "08-12",
+  "sid": "d6caec24"
+ },
+ {
+  "file": "wing-visual-port.md",
+  "name": "wing-visual-port",
+  "desc": "翅膀视觉1:1(锚点三连bug根因/逐款帧状态机表/alwaysAir门)；探针抓canvas必须g.renderer.canvas非querySelector",
+  "day": "08-13",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "wof-house-and-ores-clarify.md",
+  "name": "wof-house-and-ores-clarify",
+  "desc": "肉山砖盒=死亡点13×13只填空壳格难察觉;新三矿+赐福消息=砸祭坛(SmashAltar)非肉山死亡;死亡链无头测试已实证",
+  "day": "08-13",
+  "sid": "1fc2b821"
+ },
+ {
+  "file": "wof-voodoo-bossslot-fix.md",
+  "name": "wof-voodoo-bossslot-fix",
+  "desc": "巫毒娃娃召肉山漏设Game.boss槽=击杀链全跳过(无砖盒/无StartHardmode/无公告)根因;spawnWOF补设槽;掉落管线本就正确(探针内部id≠vanilla id误读教训);CanKillTile树下保护=原版真规则",
+  "day": "08-18",
+  "sid": "c44574b3"
+ },
+ {
+  "file": "worldgen-full-audit-2026-08-12.md",
+  "name": "worldgen-full-audit-2026-08-12",
+  "desc": "世界生成105 pass全量审计:21严重四类缺口模式/RNG流错位为主/CaveWalls等缺失pass补齐/金标oracle双绿至underworld",
+  "day": "08-12",
+  "sid": "8f9c7b63"
+ },
+ {
+  "file": "worldgen-perf-batch.md",
+  "name": "worldgen-perf-batch",
+  "desc": "世界生成零风险优化批:TileRunner/MudCaves/GemCaves 热循环(重复idx/属性链/元组洪泛);逐pass哈希自洽闸门法;总-24%",
+  "day": "08-12",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "worldgen-progress-text.md",
+  "name": "worldgen-progress-text",
+  "desc": "创建世界进度文案原版化:worldgenKeys 全量重写(54槽全覆盖+5错值修正);权威=awk配对AddGenerationPass↔progress.Message",
+  "day": "08-13",
+  "sid": "5743a3fd"
+ },
+ {
+  "file": "worldgen-selfinvented-audit.md",
+  "name": "worldgen-selfinvented-audit",
+  "desc": "世界生成自制机制全量审计+修复+遗留补齐完成态:oracle同构对账全绿(39/58行权威含corruption);GenSolid/StructureMap两子系统落地;dungeonL单走廊微差=唯一余项",
+  "day": "08-15",
+  "sid": "d76053b3"
+ },
+ {
+  "file": "worldgen-tttt-golden-channels.md",
+  "name": "worldgen-tttt-golden-channels",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "worldgen-yyyy-fourchain-attribution.md",
+  "name": "worldgen-yyyy-fourchain-attribution",
+  "desc": "",
+  "day": null,
+  "sid": null
+ },
+ {
+  "file": "wwww-root59-liquidation.md",
+  "name": "wwww-root59-liquidation",
+  "desc": "",
+  "day": "08-16",
+  "sid": null
+ },
+ {
+  "file": "xxxx-microresidual-final-clear.md",
+  "name": "xxxx-microresidual-final-clear",
+  "desc": "",
+  "day": "08-19",
+  "sid": null
+ },
+ {
+  "file": "yoyo-bag-family.md",
+  "name": "yoyo-bag-family",
+  "desc": "悠悠球袋装备族全链——counterWeight int 化/双球/配重球 AI_099_1 重写/魔法线幽灵克隆/meleeSpeed 倒数坑",
+  "day": "08-19",
+  "sid": "cb3a4729"
+ }
+]

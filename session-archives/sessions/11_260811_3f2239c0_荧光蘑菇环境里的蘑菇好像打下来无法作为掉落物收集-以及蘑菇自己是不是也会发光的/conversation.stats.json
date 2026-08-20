@@ -1,0 +1,22 @@
+{
+ "messages": 848,
+ "blocks": {
+  "text": 65,
+  "thinking": 151,
+  "tool_use": 313,
+  "tool_result": 313
+ },
+ "bookkeeping_skipped": {
+  "mode": 57,
+  "permission-mode": 57,
+  "file-history-snapshot": 6,
+  "last-prompt": 57,
+  "file-history-delta": 17,
+  "queue-operation": 6
+ },
+ "images": 1,
+ "parts": [
+  "conversation.part1.md"
+ ],
+ "generated": "2026-08-20 11:00:19"
+}

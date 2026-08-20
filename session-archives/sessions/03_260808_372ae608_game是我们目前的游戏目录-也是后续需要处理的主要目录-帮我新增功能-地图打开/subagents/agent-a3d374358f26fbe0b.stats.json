@@ -1,0 +1,15 @@
+{
+ "messages": 33,
+ "blocks": {
+  "text": 5,
+  "thinking": 6,
+  "tool_use": 10,
+  "tool_result": 10
+ },
+ "bookkeeping_skipped": {},
+ "images": 0,
+ "parts": [
+  "agent-a3d374358f26fbe0b.part1.md"
+ ],
+ "generated": "2026-08-20 10:57:55"
+}

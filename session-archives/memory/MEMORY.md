@@ -1,0 +1,152 @@
+- [TTTTT批金标链终裁+/#86新定罪](ttttt-golden-chain-verdict.md) — g/无罪:g-verify 848/848逐字节+evil_srv(8/16独立织入md5 593e587a)e0.wld终态八通道全0锚+RunPass逐pass重播种(cs:491)=边界织入污染结构性不可能;#86真凶=PlaceTile样式支NfL(14)**无条件先掷**+637/201二次覆写掷(cs:59580-59592,IL同构)被JS/RRRRR"独立"sim共同漏读(先选表单掷)——span实测3757掷vs sim3735(+22=22个637样式放置),修后掷界逐掷全等+8ch全零;RRRRR的+3/+5=分布式+22局部对齐伪影;9293480自然evil=crimson(g/=SW_EVIL=0强制变异);修复移交placePlantTile~2088
+- [RRRRR批#84染料PlaceTile头尾镜像+#90堆级联](rrrrr-dyeplants-place-tile-mirror.md) — 半砖=ResetsHalfBrickPlacementAttempt头段(默认true例外表!)/幽灵坡=尾帧TileFrame头清(type保留);#90=杀链缺Check3x2堆级联(杀后5×5复扫/越界=支撑真);#86荆棘翻转=JS与模拟逐掷一致而golden需+3/+5偏移=金标85边界嫌疑备案(**TTTTT批已翻案:JS/sim共同漏读,金标无罪**);四链EVIL=1坑
+- [QQQQQ三链各清最后一件](qqqq-three-chain-final-batch.md) — s22222#63蜘蛛波=IIIII镜像×JJJJ写侧预清场双杀+2×Next(4)幽灵掷→掷流+2雪崩(锚roll计数→访流→掷流三步定位);12345#73=185 CheckPile/Check2x1级联缺失;s22222#73=case187假35组wrap(vanilla 54*style无wrap帧越表宽!756落入草变体带[756,900]);m#69=门case10尾SquareTileFrame非活跃清half缺失;63→79/73→76/69→76四链零回退;新靶#76 Traps双链+#79草墙+#85蛛网蜂蜜
+- [★shader真值管线](shader-truth-pipeline.md) — tools/disasm-fx.mjs反汇编XNA4 .cso+src/fx/SM2Effect.ts逐指令解释器(染料/翅膀在用);terraria-assets三cso全量;关键pass行号(Aurora3109/LensFlare3215/Water2476/HeatDistortion839);"shader不可反编译"型登记全部作废走此管线;用户令:缺失系统子代理补齐禁止只登记
+- [武器全隐形=worldLayer重构后实体直取主画布](weapon-invisible-remaster-pack.md) — 1b369fe2加离屏世界层,弹幕族39文件76处r.canvas.getContext画在裸世界坐标=屏外;修=统一r.ctx;★drawImage原型级CTM插桩>像素采样(我曾两轮误测被用户戳穿);remaster三防线照落+HEAD 57个tests tsc错误卡npm run build
+- [月光worldLayer回滚+月盘注光+光照专案](moonlight-revert-moon-inject.md) — 2026-08-20定案:分层默认关(?worldlayer=1选入),稳定基线=下午版全屏乘光;夜月唯一修复=moonScreen→光照图注满光(月19→147,253,196);★观感耦合铁律:换合成必须与ColorOfTheSkies色链同批;探针绿灯≠用户观感;光照对原版大差距另立专案game/docs/lighting-parity-project.md(锚点表+G1-G8差距+M0-M5)
+- [m/s双链#59屋域清零](buriedchest-house-domain-parity.md) — 掷签名流直注定罪七件(蘑菇flag7双支位形/er+aging邻帧分派/Check3x3族/宝箱预清场/门+485派发/吊灯尘掷Next(2));m21.8k→0+s19→0+流93,918行全对齐;★tttt-span pass名带空格/Next(0,N)≡a N规范化/kstage扫与内联并存;四链首差均#62+(水箱域);s终态W59k=蜘蛛波放大既有#62债非回归
+- [KKKKK #101槽全零批](kkkkk-campsite-mahogany-engine.md) — 引擎solidAllowSide左右坡各漏一项(L排{1,3}/R排{2,4})+check2x1Sweep补185六带掉落掷+尾双SquareTileFrame;campsite四根因(Place3x2中心锚/篝火+36帧/倒木地面门错行/金币堆无门覆盖写)+mahogany三链漏wall清(W2178);moss184帧写侧查证已收敛(.fr双布局解析伪影);新派发CheckAlch/CheckJunglePlant/Check2xX;A67→0/T69→0/W2178→0
+- [宝石洞#64引擎178双计回归](gemcaves-178-doublecount-regression.md) — UUUU引擎case178上线后placeExposed手写roll2/roll3成双计(+2幽灵掷/颗)全站漂移;被"GemPasses 03:16并行在途"误归因隐匿三日;★mtime新≠肇事者,金标基座反事实一步分流输入债vs自差;修=手写退役归引擎+尾帧活性门;9293480首差#64→#65
+- [云量对齐批](cloud-parity-fill-attempts.md) — resetClouds恰numClouds次尝试(拒绝即少一朵≠重试凑满!1080p档1.7×偏多);X锚-玩家vx*0.1/scale恰界微移/海洋前景层杀低云0.006帧
+- [入场迷雾多带竞态](fog-entry-multiband-stale.md) — 分带重建跨帧+带间markExplored+完成盲盖版本=雾焊死至移动;修=完成补扫dirty盒并消费;★单带小世界假阴性/worldgen挂死时loadJson造档绕行
+- [月亮光照分层](moonlight-worldlayer-split.md) — 夜月不亮根因=全屏乘光吞天空(月光地板21/255压8%);修=世界层离屏+光照destination-in按alpha成形;★endWorldLayer勿清active旗;ImageBitmap无src拦截盲区
+- [矿轨TrackPass全链终清](trackpass-smoothslope-parity.md) — 314全图3991/3991逐位全同;SmoothSlope写坡=首差真根(轨帧链读坡态);CheckTileBreakability护实心格上树干/箱族;化石连锁/Check2x1掉落掷可达;SoundStyle音高'd'=独立实例零genRand;引擎solidAllowSide坡排除项+185掉落掷缺口备案
+- [EEEEE oracle镜像债+中世界支修复](eeeee-oracle-mirror-medium-fix.md)([Dome/自制三件](oracle-dome-mirror-mmmm-sync.md)/[#32](dome-slot32-pot-waterbolt-inact.md)/[自制审计](worldgen-selfinvented-audit.md)) — 巡检五镜像全落;★中世界真首差=marble非dungeonL;四根因=Marble/Granite计数尺度+skyLakes档+DBnd钳位硬编码;_oraclesync 71/78;#32=平台19生成期tileSolid+漏掷+致动柱
+- [素材重制管线全链](remaster-studio-pipeline.md) — gpt-image-2 逐帧重制+zip 素材包热补丁(类mod);★onBakeAssetArrived对已就位表替换=no-op须走新增onSheetReplaced/卸载replay必含被删pack/gpt-image-2无透明+最小655k像素/帧枚举≠渲染idx/独立缓存三处钩子
+- [worldgen清偿矩阵六连波](vvvv-matrix-final-preview.md)([YYYY四链归因](worldgen-yyyy-fourchain-attribution.md)/[UUUU TTTT](uuuu-tttt-residual-clearance.md)/[SSSS](ssss-tail-clearance-batch.md)/[RRRR帧杀](rrrr-frame-kill-engine.md)/[QQQQ#49](liquid-desert-blast-finalgen-fix.md)/[OOOO](oooo-deep-residuals-batch.md)/[WWWW根59](wwww-root59-liquidation.md)) — #66/#76/#99/#59/#89全归零;★六族归因:装饰位漂=采样-验证-重试放大器链;FinalCleanup通用帧杀+掷值解码法;密闭液体格唯一写者=区域写;探针雷=SW_EVIL=0金标腐化;矩阵横比须记并行mtime窗;零差需种子泛化批
+- [结构仲裁四连](ccccc-place2x2-anchor-check2x2.md)([AAAAA矿轨帧链](aaaaa-track-framechain-port.md)/[ZZZZ金字塔](pyramid-wallframe-die-debt.md)/[XXXX微残](xxxx-microresidual-final-clear.md)) — Place2x2右下锚+双门(★JS左上锚=幽灵块/(+1,+1)偏移)/frameSparse表+防嵌合帧锚互指递归/frtyp稀疏对按格读=坑/每墙1×Next(0,3)骰是pass局部/actuator0x800≠inActive0x40生成期恒真
+- [worldgen工具债四件](worldgen-tttt-golden-channels.md)([地牢#32水刀](dungeon-waterchest-float-knife.md)/[HHHHH quickcleanup](hhhhh-quickcleanup8-oracle-shimmer.md)/[IIIII备案格](iiiii-spider-chest-presweep-wf-trunk.md)) — ★Cecil InsertBefore必须重取Instructions[0];二进制vs反编译float刀口(10×0.6f=6.0)+awk行偏移误读;8格=4竖直杀对JS=x86/oracle独偏(ShimmerMakeBiome漏slope清);蜘蛛箱预清级联+CanKillTile树干腿;★ret钩先dup后call坑;全等轨迹+几何重建方法论
+- [六代理AI全量审计0819](ai-parity-audit-2026-08-19.md) — ~200条全清(五修复批+G区两批,G1硬钳废除/G2携物梯~30档/弹NPC通道/伪迹定谳);台账docs/ai-parity-gaps-2026-08-19全销项;★死亡=只积分不steering(:93808)★1405反编译AI主体缺失只能1456单版
+- [Boss审计修复族](boss-audit-wave1-fixes.md)([三维批](boss-summon-drops-events-batch.md)/[肉前三王](boss-audit-prehardmode-2026-08-13.md)/[史王视觉](king-slime-crown-ninja.md)/[石巨人3症状](golem-3symptom-fix.md)) — 波1推广25族:★弹幕自身出生音=AI侧审计盲区须双代理交叉/PlaySound(4)=死音库/json1405旧值/FindFrame状态帧/静默退场须bossFled;127=机械骷髅王;EoC体感差=canvas无DPR;★hurt放行特判挂dead=true之前
+- [审查11真bug+鹿角怪/召唤](review-found-bugs-fix.md)([鹿角怪668](deerclops-port.md)/[召唤三件套](boss-summon-announce.md)) — 红帽断链/弹540锚/钓竿谓词;668提取器1405源须手补/Slow78被Poisoned占!
+- [性能审计三批](perf-audit-2026-08.md)([砍树GC](treecrack-gc-frameguard-2026-08-18.md)/[低配机trace](lowend-perf-trace-161246.md)) — ChunkCache三漏/LRU3;42.7%冠军=逐粒子isSolid(SOLID_LUT+内联+双缓存已落);清单:粒子cap/光照模糊/小地图节流
+- [半砖浸润+迷雾三修](half-slab-liquid-band-parity.md)([迷雾](fog-flicker-f4-latetex-fix.md)) — :3943液体分支(半砖格内水画浸润);★探针四坑:地下无光/开局入夜/相机≠玩家;★st.type须__swTileByKey换算
+- [双开IOSurface耗尽](dualwindow-iosurface-exhaustion.md) — GPU进程按张计费(16x16也失败);atlas页化+cloudTint染池+playsoft;★染色缓存家族四据点清剿;GL初始化失败diedAt=0洞=每帧重建风暴
+- [12345链清欠+PPPP尾段](smoothworld-12345-checksuper-inactive.md)([pppp-tail-debts-sweep.md](pppp-tail-debts-sweep.md)) — ★零掷级联须动作序列对拍;重放残差先辨基座陈旧度
+- [书怪+教徒幻影龙+遗留收口](book-mimic-cultist-dragon-batch.md)([遗留四路](leftover-closeout-4batch.md)) — ★vi手写item()插循环前=全体id+1(只许BACKFILL回填);召唤统一迁SpawnOnPlayer
+- [chunk非整数zoom接缝](chunk-seam-noninteger-zoom.md) — 256×1.27落小数像素;修=drawChunkGrid整数设备矩形;解剖台A/B方法论
+- [敌怪AI三小修](bunny-walk-frame-fix.md)([气球史莱姆125](balloon-slime-ai125-port.md)/[秃鹫萤火虫](vulture-firefly-ai-fix.md)) — aiStyle125悬停(★爆裂须die());AI_017 vy单位错位;★怪行为报障先查出生落位再查AI(秃鹫出生即飞=落位扫描起点错)
+- [藤蔓级联+树底草占](vine-cascade-port.md)([树底草](tree-bottom-grass-overwrite.md)) — CheckVines八族打中间节下方级联;onTileChanged事件驱动先例;诊断用world.trees登记表
+- [肉山娃娃boss槽](wof-voodoo-bossslot-fix.md) — 漏设boss槽=击杀链全跳;探针内部id≠vanilla id误读
+- [近战判定盒](melee-hitbox-sprite-base.md) — =贴图帧宽高(:44485);曾被半截读法误改恒32
+- [建筑族+速度公式](builder-acc-family-port.md) — tileSpeed=累加→钳3→1/x→乘useTime;blockRange分型(挖掘不带/放置带)
+- [树族砍伐+雕像排查](palm-chop-tileaxe-parity.md)([未复现](tree-statue-drop-investigation.md)) — ★gemcorn门在树顶标记格(勿修干基!);金标失败定责=并行会话;"掉错物品"=生产者grep+spawnDrop拦截三档
+- [城镇NPC两件](town-npc-attack-port.md)([持久化](town-npc-persistence.md)) — AI_007四态自卫+Extra_48表情(Extras不在DrawNPCDirect!);saveGame写死npcs:[]曾丢;渲染层挂旗
+- [玩家弹→城镇NPC伤害门](npc-damage-gate-port.md) — 三例外:臭鸡蛋/巫毒装备门(炸弹杀向导链)/敌方弹恒命中;★TownNPC构造y锚脚底盒重叠陷阱
+- [物品悬停气泡](item-tooltip-parity-port.md) — vi_全量行链/币名=LegacyInterface非击退档;★用户禁令:低频也必须完整计入台账
+- [再生法杖全链](staff-regrowth-port.md) — 近战/工具分支截胡+草族转化(可转泥/石/灰砖!);★ITEM_DEFS id=数组索引
+- [出怪池+仇恨+spawnFriendly](spawn-pool-aggro-audit-2026-08-17.md)([spawnFriendly](spawn-friendly-port.md)) — ★友好轮须带friendly外门否则602截胡;测试世界≥1300宽;★玩家死亡=TargetClosest无操作;AI_016鱼flag22门:岸上玩家拖鱼出水根因
+- [SimHost落地](server-room-simhost-port.md) — 进程内虚拟房主复用中继管线;msg42 dmg是i16;loadJson绕worldgen
+- [视觉层序两小修](treecrown-seam-and-topsize.md)([双太阳](menu-sun-layering-fix.md)) — 最近邻旋转丢像素→线性;DOM日月体常态隐藏;DPR2钉相机法
+- [音效三件](chop-hit-sound-port.md)([衰减](sfx-distance-attenuation.md)/[怪物环境声](npc-ambient-sound-audit.md)) — KillTile(fail)都播Dig;2500px公式/监听器=相机中心;★缺省Style=1!/Roar错轨大修/进世界预热
+- [贴图崩溃两修](alchemy-table-anim-collapse-fix.md)([解码风暴](dungeon-crash-targeted-rebake.md)) — TDZ教训(document-start直import炸循环依赖);onBake精确打击
+- [沙漠石堆187](desert-piles-frame-parity.md) — finalize净化器误杀换带帧;★用户定案旧世界不兼容只保新档
+- [平台站立穿透](platform-standable-framey-fix.md) — tileSolid∩solidTop{19,239,380,427}恒可站;探针放玩家≥3格防嵌格
+- [老人诅咒链](oldman-curse-respawn-fix.md) — downed旗标双键漏改五门;跨id记账先查家族键
+- [手持物noWet逐件化](held-item-nowet-parity.md) — 全局!inWater门应逐件noWet 70件;探针drawImage精确矩形匹配法
+- [墙家族L批](wall-family-sweep-l-batch.md) — #46方向三元反=神庙镜像;gs克隆污染+独立app探针方法论
+- [多段跳+跑靴](multijump-fx-port.md) — ★取vid必须def.vid??viIdFromKey;尘16真容须canvas逐像素
+- [大理石slab77击杀门](marble-slab77-kill-typegate.md) — 杀type==165格才杀;ResetToType不清墙!;TraceRNG栈帏callsite法
+- [角色行为总批](behavior-parity-batch-2026-08-17.md) — 动画帧/死亡散飞/硬核幽灵/眨眼/NPC逃离坐姿;tickCount探针四坑
+- [默认移速对账](default-run-speed-parity.md) — accRunSpeed基准=3非6(`||6`曾致翻倍!);靴族测试须真穿靴
+- [指针图标系统](cursor-item-icon-port.md) — 余辉10帧/held→覆写→悬停解析序;icon=-1抑制
+- [起跳下落全链](player-jump-vanilla-alignment.md) — jumpSpeed 5.01恒钉非累加!;--cultures缩index坑
+- [住房B方案落地](housing-b-vanilla-ui.md) — queryRoom/assignRoom;HouseMissing拼串l10n裸键坑
+- [开关门切半边](door-close-sweep-fix.md) — 原版只动type==11开门格;渲染无罪是数据层
+- [图鉴四件](bestiary-data-layer.md)([滚轮崩](bestiary-scroll-crash-fix.md)/[染色帧](bestiary-npc-tint-frame.md)/[攻略](guide-query-parity-batch.md)) — 数据层三桶+546条;frames查母体sheetId两步;原版唯一百科=图鉴+向导反查
+- [巨石机关三根因](boulder-trap-fix.md) — 真档31×31/中心点碰撞恒沉/★运行期改tile必走setTile
+- [地牢裂砖全功能对齐](cracked-brick-chain-port.md) — 裂砖481-483五链(掉砖/连锁/弹片/撞碎/扫掠碎)
+- [素材加载三件](asset-lazy-loading.md)([bitmap](imagebitmap-root-cure.md)/[SW预载](sw-asset-preload-port.md)) — 三级懒加载8300→31;atlas全bitmap化;★大世界巨帧=Minimap同步redrawAll→buildStriped
+- [WebGL2一期](webgl2-phase1-port.md) — GLSpriteLayer共享模块;逃生门?bggl=0/?mapgl=0
+- [发射器弹药对账](launcher-ammo-pickammo-parity.md) — PickAmmo弹型=加法非替换+Specific表60对;MK2⌊ai0/volley⌋%7
+- [金字塔+钱币门](pyramid-plate-coin-portal.md) — 金字塔无压板=原版;罐子传送门1/125;并行改Game.ts须重grep
+- [敌怪弹幕五件](arrow-gravity-chain-parity.md)([旋转](proj-rotation-right-art.md)/[贴图](dart-proj-visual-port.md)/[形态](enemy-ranged-transform-audit.md)) — AI_001默认0.1缓坠(非0.3!)/终端16;ai0初值-1120陷阱;Transform全表
+- [l10n两件](l10n-bare-key-incident.md)([自造UI](selfinvented-ui-l10n-batch.md)) — 裸键事故:"键存在"≠"可用";custom在仓库根tools/;自造UI原版官译优先
+- [多弹头双碎块](enemy-death-single-gate.md) — 同帧二次死亡管线;pierce=1豁免;hurt契约=仅致死true
+- [泄露家族扫除](leak-family-sweep.md) — 合成滚轮rAF合并/append-only DOM;refresh合并>逐源节流
+- [全物块通行性审计](tile-passability-audit.md) — tileSolid/SolidTop全表399条;★tileSolidBackup还原铁律
+- [全量功能缺口扫描](impl-gap-scan-2026-08-13.md) — 6059件→真缺口40;全量登记在vanilla.json运行时合成扫不到!
+- [翅膀+手持绘制两件](wing-visual-port.md)([held](held-item-draw-parity.md)) — 锚点三连bug/generic帧数=4;火焰叠画默认α0勿误移植
+- [弹幕绘制三件](gun-bullet-size-parity.md)([偏移表](proj-draw-offset-table.md)/[光标](cursor-icon-fullbright.md)) — 绘制=贴图原生×scale与hitbox解耦;GetItemLight默认参离屏三步
+- [信息饰品终审](info-accs-review-fixes.md) — 渔情粘性反转(最重!);accWatchTime=死字段
+- [地牢入口两修+陈设](dungeon-entrance-plug-fix.md)([furnish](dungeon-furnish-parity-batch.md)) — 堵塔根因=自制gY扫描(1456=挂hall出口位);isLockedDoor陷阱
+- [飘字位图字体](combat-font-bitmap-port.md) — ReLogic字段序(default char=1B!);假阴性用CDP
+- [PvP全链](pvp-system-port.md) — victim-settles;0x7f掩码吞bit6!
+- [NPC帧数闸门](npc-frame-golden-gate.md) — 权威=json frames;缺帧=整图条渲染
+- [肉后出怪池对账](spawn-progression-audit.md) — 强化=换池+ExpertHardmode兜底;月后零影响
+- [读档链路三批](load-ui-nan.md) — NaN三端isFinite;Object.create壳路径翻车
+- [世界文案原版化](worldgen-progress-text.md) — worldgenKeys 54槽;awk配对权威法
+- [整体review四维度](overall-review-2026-08-13.md) — UnderworldLayer恒h-200;月Boss无boss位误占槽
+- [肉山砖盒澄清](wof-house-and-ores-clarify.md) — 砖盒=13×13只填空壳;新三矿=砸祭坛;内部id1=dirt坑
+- [装备堆叠对账](equip-unique-stack-parity.md) — 1456默认9999仅11例外(铂币=9999!);DualEquipArmor白名单
+- [飞行小动物闪现](stepdown-flying-critter-fix.md) — StepDown宽门;门须在onGround重置前捕获
+- [武器特效+爆炸音](weapon-fx-audit-2026-08-13.md)([sfx](explosion-sfx-port.md)) — UseSound 582件数据驱动;首播静默=无explosion分支+无预热
+- [敌怪传送+AI路由审计](enemy-teleport-port.md)([路由](ai-routing-audit-2026-08-13.md)) — caster12ids重做(ai0=500);594根因=主switch缺case
+- [微光三件](shimmer-audit-status.md)([双bug](shimmer-decraft-pickup-fix.md)/[实体转化](vanilla-shimmer-port.md)) — 宝石树掷序勿互搬;上浮+拉动死锁两真bug
+- [全量系统覆盖+缺口批](system-coverage-audit.md)([缺口批](gap-port-master-batch.md)) — 星星雨/陨石/派对/快乐度;台账14项核销;接线清单纪律
+- [投掷物理修复](thrown-physics-fix.md) — 默认20t平飞/g0.4/阻力0.97;例外表勿一刀切
+- [道具使用链终审](use-path-final-audit.md) — 迁移表必须冻结字面量;钩爪宠物坐骑=引擎级缺口
+- [世纪之花对齐](plantera-parity-audit.md) — 1456 ID:262-265+弹275-277(勿用旧表);UnderworldLayer=h-200陷阱
+- [陨石+矿物分布审计](meteor-fall-port.md) — 五层crater独立循环勿合并!;仅剩邻坛误拆
+- [本地物品退役+双键延期](local-item-retirement.md)([双键](dual-key-cleanup-deferred.md)) — ★vi_ def不落vid/name恒''(vid用vid??viIdFromKey);迁移锚删后禁重跑;双键方案在game/docs
+- [世界生成优化批](worldgen-perf-batch.md) — LUT/洪水法/扁平栈;逐pass哈希自洽闸门;总-24%
+- [液体三件](vanilla-liquid-port.md)([提速](liquid-settle-perf.md)/[#28](underworld-iso-hf-residual.md)) — attemptToMoveLiquid黑曜石坑;liquidType=真值(+1编码);冻结快照A/B闸门
+- [配方引擎修复](recipe-engine-port.md) — 3173配方;GetShimmered分支序勿改;合成音SoundID7
+- [帧表两件](blockframes-lookup-rebuild.md)([门帧](vanilla-door-frames.md)) — 块帧机械重生成;门style公式、放门要j-2
+- [JS两陷阱](js-bitwise-int32-traps.md)([liquidType](liquidtype-plus-one-encoding.md)) — ^/<<有符号1<<31溢出;原版Water=0/本仓水=1照抄必死循环
+- [宝石178+祭坛残片](gem-anchor-gate-port.md)([祭坛](altar-fragment-fix.md)) — CheckAndAdjust锚定链;原版不保护祭坛残片属原版风格
+- [物品画像审计](item-audit-port.md) — 画像提取+vi_工具/药水桥接+引擎级缺口
+- [丛林链全绿+ID碰撞](jungle-parity-and-id-collision.md) — EMPTY(0)≡幽灵泥土碰撞;rng.int上界换算铁律
+- [环境生存两件](breath-meter-port.md)([接触伤害](env-hazards-port.md)) — UI锚点-100是屏幕空间;TouchDamage表
+- [海洋沙+地狱/背景+BGM](ocean-sand-hellfort-parity.md)([bgm](vanilla-bgm-background-port.md)) — 地狱废墟中部50%=原版;xwb以内嵌流名为权威
+- [存档1:1对账](save-parity-port.md) — npcs三重断链/七环checklist/protocol.ts清空事故
+- [召唤师三批](summoner-full-parity-batch.md) — 407=风暴非蜘蛛;EntityManager.add丢this坑
+- [职业数值对账](class-stat-reconciliation.md) — 魔力眩晕=94非33/Rage115=暴击 Wrath117=伤害名实对调
+- [时间系统1:1](time-system-11-port.md) — 恒速tick勿分段;type-only import取常量会被剥
+- [战斗收敛批](combat-convergence-batch.md) — 真Molotov=2590;heredoc不执行改patch文件
+- [宝箱战利品对账](loot-parity-audit.md) — 地牢群系箱写反(P0);AddBuriedChest四分支1:1
+- [光照两件](lighting-parity-audit.md)([引擎](vanilla-lighting-port.md)) — ★引擎逐通道max合并不叠加;光芒buff11勿与手持互斥
+- [腐化+海滩植物+冰锥](visual-defects-corruption-fix.md)([beach](vanilla-beach-plants-fix.md)) — 石锥无腐化变体=原版;螃蟹是敌怪在spawner海洋段
+- [联机两批](multiplayer-capacity-opt-batch.md) — 容量P0-P3(AOI/短码/合包/插值);观战全链
+- [灯笼竖排样式轴](lantern-style-axis.md) — TileObjectData默认竖排!placeFurn横排假设受害清单
+- [下落水柱修复](waterfall-anim-frames.md) — 1456双动画帧;两套瀑布系统勿混
+- [项目基础三约定](sandboxworld-project-setup.md)([素材](terraria-assets-pipeline.md)/[标杆](reference-vanilla-source-of-truth.md)) — game/+5199+puppeteer;★报异常先查Terarria1456反编译/TEdit校对再修
+- [工作流四约定](parallel-vite-sessions.md)([诊断](diag-script-orphan-prevention.md)/[双实例](dev-server-duplicate-modules.md)/[调试](debug-tools-f6-f2.md)) — ★私有vite 52xx+SW_NO_HMR+探针SW_ORIGIN+禁kill 5199;_脚本经run-diag+删前pgrep;F6召唤+F2无敌+F5报告
+- [原版世界生成105 pass](vanilla-worldgen-port-status.md)([轮5/6](2026-08-09-round5.md)) — 完整移植+全量物品+关键方法索引
+- [原版全量怪物+NPC AI](vanilla-npc-port.md)([小动物](critter-ai-port.md)/[爬墙蛛](wall-creeper-ai40-port.md)) — 561种数据驱动Enemy;13 aiStyle路由/ai0初值坑
+- [原版UI复刻+资源条](vanilla-ui-port.md)([资源条](vanilla-resource-bars-port.md)) — vui/Canvas+主菜单;金心从首颗起
+- [原版电路移植](vanilla-wiring-port.md) — Wiring.cs全量+种子自跳过语义
+- [1456升级差异](vanilla-1456-upgrade-notes.md) — 数值一律取1456最终态
+- [会话档案三件](session-archives-export.md)([长页](journey-page.md)/[PII](archives-pii-sanitization.md)) — PII审计规则烧进工具
+- [刷怪两件](spawner-vanilla-alignment.md)([地牢](dungeon-spawn-port.md)) — VanillaSpawner全链1:1;wallDungeon={7,8,9,94-99}/AI 10-21族aiInit陷阱
+- [语言两件](vanilla-language-port.md)([命名](vanilla-names-i18n.md)) — 12语言;方块名=createTile反查;Tiles分节空是坑
+- [随机文本+死亡+墓碑](vanilla-random-text-death-tombstone.md) — CreateDeathMessage 1:1;落点不佳原地等待=原版
+- [蜂巢链路](beehive-port.md) — Larva是231非220;LiquidSim先构造再写液体
+- [buff两件](buff-system-port.md)([buff栏](buff-bar-vanilla-icons.md)) — AddBuff max合并;Buff_{id}贴图388张勿用药水图标hack
+- [碰撞全表审计](vanilla-solid-audit.md) — tileSolid仅7处偏差;高门388↔389自动开关
+- [事件系统三件套](event-system-port.md) — 日食/南瓜霜月/星璇四塔全落地;MoonEvent勿塞invasionType/塔AI94/掉落gate链
+- [近似清零+补齐两工程](approx-zero-project.md)([final](systems-final-batch.md)) — 127条全处置;三态终审法则
+- [挖掘模型1:1](mining-model-port.md) — 铜斧13击(非3);冷却=useTime非useAnimation
+- [帧索引双案](chest-index-frame-bug.md)([id碰撞](id-space-collision-pot-bug.md)) — placeChest写索引非像素;跨id空间搬表先确认dispatch变量
+- [原版掉落系统移植](vanilla-npc-drops-port.md)([细账](npcdrops-audit-fix.md)) — 规则提取器+求值运行时;黑晶状体33%以源码为准
+- [种子等价路线图](seed-equivalence-plan.md) — L0完成位级;L2需用户金标.wld
+- [NPC肢体叠画](npc-extra-limb-drawing.md) — 藤/链/臂骨全在Main.cs DrawNPC叠画
+- [爆炸物审计](explosion-family-port.md) — ExplodeTiles 1:1/半径表/手雷引信错位
+- [26机制+世界生成两审计](mechanics-audit-2026-08-12.md)([full-audit](worldgen-full-audit-2026-08-12.md)) — 难度拆轴(角色vs世界!);★五批增补(半数陈注释/worker递归栈化铁律)在文件尾
+- [A批近似清零](a-batch3-approx-zero.md) — DD2表1:1/钓鱼累积器/攻速倒数档
+- [mouseDown边沿vs电平](input-mousedown-edge-vs-level.md) — 滞留判定须用mouseHeld;悠悠球出生1帧即死根因
+- [链球+StatusNPC](flail-statusnpc-port.md) — 状态机/链条贴图;GAP清单在docs
+- [成就全量移植](achievements-port.md) — 137成就;图标66步长8列+528灰阶
+- [移动端适配](mobile-controls-port.md) — touchKeys/触摸长按=右键;el=canvas坑
+- [宠物系统移植](pets-port.md) — 86件双模式/DefaultToVanitypet参数序坑(projId前)
+- [全面1:1审查修复](full-1to1-review.md) — 坐骑hover固定类型表/QuickMount R键/expert×1.5
+- [环境视觉三小修](snow-blizzard-ripple-fix.md)([月光](moonlight-audit.md)/[红焰](water-candle-flame-fix.md)) — 夜黑=原版勿误修;tintedFlameCell键须含img.src
+- [鸟族FindFrame](bird-findframe-families.md) — 专属case清单;鸮族镜像取反双翻陷阱
+- [液体缓冲器回灌+165/91派发](liquid-buffer-reflow-parity.md) — 回灌量=numLiquid非空余量+DelBuffer swap-remove非FIFO;湖面薄膜高度全漂=m链#49主根因
+- [线饰品系统全链](string-accessory-system.md) — stringColor统计+StringLine段链+XNA预乘三档;提取器落空case修复(十二件曾全缺)
+- [雕像放置期级联#58清零](statues-sweep-port.md) — PlaceTile case105尾SquareTileFrame无条件九宫;零帧垫片勿泛化;★spawn-tree红=#32债×TrackPass放大
+- [悠悠球袋装备族全链](yoyo-bag-family.md) — counterWeight int化/双球/AI_099_1重写;★每帧重掷非定死;meleeSpeed倒数坑
+- [苔藓pass#65四根因清零](moss-pass-65-four-root-causes.md) — 霓虹洪水repeat缺省true/BFS出列端误去重(坡半砖石次访换型)/暴露段budget×500动态上限截断(197/211命中即出!)/enclosed读静态表(窗口期225蜂巢=非实心);span双侧对拍@604定位+54007全等终审;残差ow/iw/it画像指段
+- [尾段五连根因#69→#77清零](tail-five-fixes-69-77.md) — 岛屋壳/柱补half+slope清位(挖空支靠壳填先行清位);SaveSlopes=PostSetupContent静态快照(生成期翻转不回写!QuickCleanup/TileCleanup同勘误)+active(false)只清活性位;SpreadGrass转化后SquareTileFrame级联(Check3x2全量+KillTile type=0);SurfaceOre y掷上界=GenVars.worldSurface(274)≠Main(337);SolidTile2要求slope0!half;#77墙画帧全f0,0=DungeonPass债(移交)
+- [水箱/海底箱#61/62清零](water-chest-slope-land-61-62.md) — ★trySlope门序=压平在SolidTile前(谓词不含slope/half→箱落坡上!曾塞solidDrop门内致坡格穿落+occ拒);slopeL/R须行内变量(半砖行压平不回填);丛林箱回退=KillTile级联(非setTileSilent!)+CheckOrb补件{12,31,639,696};金标指纹=箱腿行sl压平格;occ失败原因流定罪法;s链#63蜘蛛波未自愈=HiveSpider自债
+- [墙画帧+向日葵三连#77→#83](dungeon-painting-sunflower-77-81.md) — 画族三函数帧公式互异(4x3=style只进Y!)且PlaceTile尾SquareTileFrame对画族no-op;向日葵掷9颗(先掷后覆盖)+列扫上界独占j<num3+趟数double=9;金标基座参数化模拟法(六通道直装+流重放+暴力扫参数面)零金标写入定谳;#82树3028格级联自愈;#83草药style-4海滩门移交StructuresPass

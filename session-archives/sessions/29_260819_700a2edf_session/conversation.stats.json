@@ -1,0 +1,19 @@
+{
+ "messages": 2,
+ "blocks": {
+  "text": 0,
+  "thinking": 0,
+  "tool_use": 0,
+  "tool_result": 0
+ },
+ "bookkeeping_skipped": {
+  "mode": 1,
+  "file-history-snapshot": 1,
+  "last-prompt": 1
+ },
+ "images": 0,
+ "parts": [
+  "conversation.part1.md"
+ ],
+ "generated": "2026-08-20 11:01:24"
+}
