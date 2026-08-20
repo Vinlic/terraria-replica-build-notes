@@ -61,6 +61,10 @@
 - Cookie 值 → `[REDACTED]`
 - 内网 IP 地址 → 掩码处理
 
+### 已链接认可[LINUX DO](https://linux.do)社区
+
+[使用GLM-5.3花费7天1:1复刻泰拉瑞亚到网页版 ](https://linux.do/t/topic/2754471)
+
 ## License
 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — 非商业性使用 · 相同方式共享
