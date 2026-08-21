@@ -15,6 +15,12 @@
 | `session-archives/memory/` | 跨会话结构化记忆(263 份,项目的组织大脑) |
 | `tools/` | 展示页构建工具 + 数据管线 |
 
+## 复刻的游戏Demo预览
+
+[7天1:1全量AI复刻泰拉瑞亚原版到网页](https://www.bilibili.com/video/BV1Fjgw6iEmP/)
+
+<img width="1380" height="830" alt="image" src="https://github.com/user-attachments/assets/d0e6504f-b8f8-4b20-92b6-b12fb359ca7d" />
+
 ## 在线浏览
 
 **[https://vinlic.github.io/terraria-replica-build-notes/](https://vinlic.github.io/terraria-replica-build-notes/)**
